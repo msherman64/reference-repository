@@ -1,0 +1,14 @@
+{
+  "description": "Texas Advanced Computing Center",
+  "email_contact": "help@chameleoncloud.org",
+  "latitude": 30.390223,
+  "location": "Austin, Texas, USA",
+  "longitude": -97.72563,
+  "name": "TACC",
+  "security_contact": "help@chameleoncloud.org",
+  "sys_admin_contact": "help@chameleoncloud.org",
+  "type": "site",
+  "uid": "tacc",
+  "user_support_contact": "help@chameleoncloud.org",
+  "web": "https://www.chameleoncloud.org"
+}
