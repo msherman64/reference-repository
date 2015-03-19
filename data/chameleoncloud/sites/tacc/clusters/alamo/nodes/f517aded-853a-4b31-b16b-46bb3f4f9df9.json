@@ -78,6 +78,15 @@
       "rev": "HT62",
       "size": 146815733760,
       "vendor": "SEAGATE"
+    },
+    {
+      "device": "sdb",
+      "driver": "mptsas",
+      "interface": "SCSI",
+      "model": "ST91000640SS",
+      "rev": "AS05",
+      "size": 1000204886016,
+      "vendor": "SEAGATE"
     }
   ],
   "supported_job_types": {
