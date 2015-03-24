@@ -33,7 +33,7 @@
       "management": false,
       "model": "NetXtreme II BCM5709S Gigabit Ethernet",
       "mounted": true,
-      "rate": null,
+      "rate": 1000000000,
       "switch": null,
       "switch_port": null,
       "vendor": "Broadcom Corporation"
