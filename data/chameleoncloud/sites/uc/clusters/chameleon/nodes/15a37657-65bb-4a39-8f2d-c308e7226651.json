@@ -1,0 +1,114 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 48
+  },
+  "bios": {
+    "release_date": "03/09/2015",
+    "vendor": "Dell Inc.",
+    "version": 1.2
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R630",
+    "serial": "3T99C42"
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "ram_size": 134956859392
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "eno1",
+      "driver": "bnx2x",
+      "interface": "Ethernet",
+      "mac": "44:a8:42:15:76:c4",
+      "management": false,
+      "model": "NetXtreme II 10 Gigabit Ethernet",
+      "mounted": false,
+      "rate": 10000000000,
+      "switch": null,
+      "switch_port": null,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno2",
+      "driver": "bnx2x",
+      "interface": "Ethernet",
+      "mac": "44:a8:42:15:76:c6",
+      "management": false,
+      "model": "NetXtreme II 10 Gigabit Ethernet",
+      "mounted": false,
+      "rate": 10000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno3",
+      "driver": "bnx2x",
+      "interface": "Ethernet",
+      "mac": "44:a8:42:15:76:c8",
+      "management": false,
+      "model": "NetXtreme II Gigabit Ethernet",
+      "mounted": true,
+      "rate": 1000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno4",
+      "driver": "bnx2x",
+      "interface": "Ethernet",
+      "mac": "44:a8:42:15:76:ca",
+      "management": false,
+      "model": "NetXtreme II Gigabit Ethernet",
+      "mounted": false,
+      "rate": 1000000000,
+      "vendor": "Broadcom Corporation"
+    }
+  ],
+  "operating_system": {
+    "kernel": "3.10.0-229.4.2.el7.x86_64",
+    "name": "centos",
+    "version": "7.1.1503"
+  },
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 262144,
+    "cache_l3": 31457280,
+    "clock_speed": 3100000000,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel",
+    "version": "E5-2670"
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "driver": "mptsas",
+      "interface": "SCSI",
+      "model": "ST9250610NS",
+      "rev": "AA63",
+      "size": 250059350016,
+      "vendor": "Seagate"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "15a37657-65bb-4a39-8f2d-c308e7226651"
+}
