@@ -31,7 +31,7 @@
       "interface": "Ethernet",
       "mac": "44:a8:42:15:59:1b",
       "management": false,
-      "model": "NetXtreme II 10 Gigabit Ethernet",
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": false,
       "rate": 10000000000,
       "switch": null,
@@ -45,7 +45,7 @@
       "interface": "Ethernet",
       "mac": "44:a8:42:15:59:1d",
       "management": false,
-      "model": "NetXtreme II 10 Gigabit Ethernet",
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": false,
       "rate": 10000000000,
       "vendor": "Broadcom Corporation"
@@ -57,7 +57,7 @@
       "interface": "Ethernet",
       "mac": "44:a8:42:15:59:1f",
       "management": false,
-      "model": "NetXtreme II Gigabit Ethernet",
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": true,
       "rate": 1000000000,
       "vendor": "Broadcom Corporation"
@@ -69,7 +69,7 @@
       "interface": "Ethernet",
       "mac": "44:a8:42:15:59:21",
       "management": false,
-      "model": "NetXtreme II Gigabit Ethernet",
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": false,
       "rate": 1000000000,
       "vendor": "Broadcom Corporation"
