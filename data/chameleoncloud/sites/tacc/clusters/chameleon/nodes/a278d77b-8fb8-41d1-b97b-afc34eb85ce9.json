@@ -77,14 +77,15 @@
     {
       "bridged": false,
       "device": "ib0",
-      "driver": "mlx4_ib",
+      "driver": "mlx4_core",
       "guid": "20:00:55:00:41:80:00:00:00:00:00:00:f4:52:14:03:00:95:c9:31",
       "interface": "InfiniBand",
       "management": false,
       "model": "MT27500 Family [ConnectX-3]",
-      "mounted": null,
+      "mounted": false,
       "rate": 56000000000,
-      "vendor": "Mellanox Technologies"
+      "vendor": "Mellanox Technologies",
+      "version": "MT4099"
     }
   ],
   "operating_system": {
