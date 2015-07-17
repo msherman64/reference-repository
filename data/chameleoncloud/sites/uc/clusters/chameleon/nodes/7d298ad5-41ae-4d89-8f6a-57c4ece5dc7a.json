@@ -32,7 +32,7 @@
       "mac": "44:a8:42:15:58:a5",
       "management": false,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": false,
+      "mounted": true,
       "rate": 10000000000,
       "switch": null,
       "switch_port": null,
@@ -58,7 +58,7 @@
       "mac": "44:a8:42:15:58:a9",
       "management": false,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": true,
+      "mounted": false,
       "rate": 1000000000,
       "vendor": "Broadcom Corporation"
     },
@@ -76,7 +76,7 @@
     }
   ],
   "operating_system": {
-    "kernel": "3.10.0-229.4.2.el7.x86_64",
+    "kernel": "3.10.0-229.7.2.el7.x86_64",
     "name": "centos",
     "version": "7.1.1503"
   },
