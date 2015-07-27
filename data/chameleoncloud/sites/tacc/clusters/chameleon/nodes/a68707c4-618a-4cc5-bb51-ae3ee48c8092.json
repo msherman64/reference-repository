@@ -34,8 +34,6 @@
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": true,
       "rate": 10000000000,
-      "switch": null,
-      "switch_port": null,
       "vendor": "Broadcom Corporation"
     },
     {
