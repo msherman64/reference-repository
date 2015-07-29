@@ -94,8 +94,8 @@
   "storage_devices": [
     {
       "device": "sda",
-      "driver": "mptsas",
-      "interface": "SCSI",
+      "driver": "megaraid_sas",
+      "interface": "SATA",
       "model": "ST9250610NS",
       "rev": "AA63",
       "size": 250059350016,
