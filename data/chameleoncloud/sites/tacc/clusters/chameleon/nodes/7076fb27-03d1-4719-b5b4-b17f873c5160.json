@@ -17,7 +17,12 @@
   "gpu": {
     "gpu": false
   },
+  "infiniband": true,
   "main_memory": {
+    "humanized_ram_size": {
+      "unit": "GiB",
+      "value": 128
+    },
     "ram_size": 134956859392
   },
   "monitoring": {
@@ -108,6 +113,10 @@
     {
       "device": "sda",
       "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "GB",
+        "value": 250
+      },
       "interface": "SATA",
       "model": "ST9250610NS",
       "rev": "AA63",

@@ -18,6 +18,10 @@
     "gpu": false
   },
   "main_memory": {
+    "humanized_ram_size": {
+      "unit": "GiB",
+      "value": 12
+    },
     "ram_size": 12587876352
   },
   "monitoring": {
@@ -73,11 +77,15 @@
     {
       "device": "sda",
       "driver": "mptsas",
+      "humanized_size": {
+        "unit": "GB",
+        "value": 500
+      },
       "interface": "SCSI",
       "model": "ST9500430SS",
       "rev": "DS62",
       "size": 500107862016,
-      "vendor": "SEAGATE"
+      "vendor": "Seagate"
     }
   ],
   "supported_job_types": {
