@@ -1,0 +1,304 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 40
+  },
+  "bios": {
+    "release_date": "05/04/2015",
+    "vendor": "Dell Inc.",
+    "version": 1.1
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge FC430",
+    "serial": "7WFCS52"
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "humanized_ram_size": {
+      "unit": "GiB",
+      "value": 64
+    },
+    "ram_size": 67445407744
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "eno1",
+      "driver": "bnx2x",
+      "interface": "Ethernet",
+      "mac": "d0:43:1e:81:6f:09",
+      "management": false,
+      "model": "NetXtreme II BCM57810 10 Gigabit Ethernet (rev 10)",
+      "mounted": true,
+      "rate": 10000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno2",
+      "driver": "bnx2x",
+      "interface": "Ethernet",
+      "mac": "d0:43:1e:81:6f:0c",
+      "management": false,
+      "model": "NetXtreme II BCM57810 10 Gigabit Ethernet (rev 10)",
+      "mounted": false,
+      "rate": 10000000000,
+      "vendor": "Broadcom Corporation"
+    }
+  ],
+  "operating_system": {
+    "kernel": "3.10.0-229.7.2.el7.x86_64",
+    "name": "centos",
+    "version": "7.1.1503"
+  },
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 262144,
+    "cache_l3": 26214400,
+    "clock_speed": 3000000000,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+    "vendor": "Intel",
+    "version": "E5-2650"
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdb",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdc",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdd",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sde",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdf",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdg",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdh",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdi",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdj",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdk",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdl",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdm",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdn",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdo",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdp",
+      "driver": "megaraid_sas",
+      "humanized_size": {
+        "unit": "TB",
+        "value": 2
+      },
+      "interface": "SAS",
+      "model": "ST2000NX0273",
+      "rev": "NS27",
+      "size": 2000398934016,
+      "vendor": "Seagate"
+    },
+    {
+      "device": "sdq",
+      "driver": "ahci",
+      "humanized_size": {
+        "unit": "GB",
+        "value": 400
+      },
+      "interface": "SATA",
+      "model": "INTEL SSDSC1BG40",
+      "rev": "G201",
+      "size": 400088457216,
+      "vendor": "Intel"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "68262745-3d0c-4295-9799-b2443f8aeb6d"
+}
