@@ -19,10 +19,7 @@
   },
   "infiniband": true,
   "main_memory": {
-    "humanized_ram_size": {
-      "unit": "GiB",
-      "value": 128
-    },
+    "humanized_ram_size": "128 GiB",
     "ram_size": 134956859392
   },
   "monitoring": {
@@ -113,10 +110,7 @@
     {
       "device": "sda",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "GB",
-        "value": 250
-      },
+      "humanized_size": "250 GB",
       "interface": "SATA",
       "model": "ST9250610NS",
       "rev": "AA63",

@@ -18,10 +18,7 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": {
-      "unit": "GiB",
-      "value": 64
-    },
+    "humanized_ram_size": "64 GiB",
     "ram_size": 67445407744
   },
   "monitoring": {
@@ -75,10 +72,7 @@
     {
       "device": "sda",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -88,10 +82,7 @@
     {
       "device": "sdb",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -101,10 +92,7 @@
     {
       "device": "sdc",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -114,10 +102,7 @@
     {
       "device": "sdd",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -127,10 +112,7 @@
     {
       "device": "sde",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -140,10 +122,7 @@
     {
       "device": "sdf",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -153,10 +132,7 @@
     {
       "device": "sdg",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -166,10 +142,7 @@
     {
       "device": "sdh",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -179,10 +152,7 @@
     {
       "device": "sdi",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -192,10 +162,7 @@
     {
       "device": "sdj",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -205,10 +172,7 @@
     {
       "device": "sdk",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -218,10 +182,7 @@
     {
       "device": "sdl",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -231,10 +192,7 @@
     {
       "device": "sdm",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -244,10 +202,7 @@
     {
       "device": "sdn",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -257,10 +212,7 @@
     {
       "device": "sdo",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -270,10 +222,7 @@
     {
       "device": "sdp",
       "driver": "megaraid_sas",
-      "humanized_size": {
-        "unit": "TB",
-        "value": 2
-      },
+      "humanized_size": "2 TB",
       "interface": "SAS",
       "model": "ST2000NX0273",
       "rev": "NS27",
@@ -283,10 +232,7 @@
     {
       "device": "sdq",
       "driver": "ahci",
-      "humanized_size": {
-        "unit": "GB",
-        "value": 400
-      },
+      "humanized_size": "400 GB",
       "interface": "SATA",
       "model": "INTEL SSDSC1BG40",
       "rev": "G201",

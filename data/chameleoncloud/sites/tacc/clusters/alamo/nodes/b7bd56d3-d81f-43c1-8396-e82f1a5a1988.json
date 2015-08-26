@@ -18,10 +18,7 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": {
-      "unit": "GiB",
-      "value": 12
-    },
+    "humanized_ram_size": "12 GiB",
     "ram_size": 12587876352
   },
   "monitoring": {
@@ -77,10 +74,7 @@
     {
       "device": "sda",
       "driver": "mptsas",
-      "humanized_size": {
-        "unit": "GB",
-        "value": 500
-      },
+      "humanized_size": "500 GB",
       "interface": "SCSI",
       "model": "ST9500430SS",
       "rev": "DS62",
