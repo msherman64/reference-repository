@@ -1,0 +1,79 @@
+{
+	"architecture": {
+		"smp_size": 2,
+		"smt_size": 48,
+		"platform_type": "x86_64"
+	},
+	"bios": {
+		"vendor": "Dell Inc.",
+		"version": 1.2,
+		"release_date": "03/09/2015"
+	},
+	"chassis": {
+		"serial_number": "1M2JD42",
+		"manufacturer": "Dell Inc.",
+		"product_name": "PowerEdge R730"
+	},
+	"block_devices": {
+		"sda": {
+			"size": 250059350016,
+			"model": "ST9250610NS",
+			"rev": "AA63"
+		}
+	},
+	"gpu": {
+		"gpu": true,
+		"gpu_count": 1,
+		"gpu_model": "M40",
+		"gpu_vendor": "NVIDIA"
+	},
+	"supported_job_types": {
+		"virtual": "ivt"
+	},
+	"network_interfaces": {
+		"eno1": {
+			"interface": "Ethernet",
+			"driver": "bnx2x",
+			"mac": "44:a8:42:26:56:83",
+			"version": "",
+			"mounted": true,
+			"management": false
+		},
+		"eno2": {
+			"interface": "Ethernet",
+			"driver": "bnx2x",
+			"mac": "44:a8:42:26:56:85",
+			"version": "",
+			"mounted": false,
+			"management": false
+		},
+		"eno3": {
+			"interface": "Ethernet",
+			"driver": "bnx2x",
+			"mac": "44:a8:42:26:56:87",
+			"version": "",
+			"mounted": false,
+			"management": false
+		},
+		"eno4": {
+			"interface": "Ethernet",
+			"driver": "bnx2x",
+			"mac": "44:a8:42:26:56:89",
+			"version": "",
+			"mounted": false,
+			"management": false
+		}
+	},
+	"processor": {
+		"clock_speed": 3100000000,
+		"instruction_set": "x86-64",
+		"model": "Intel Xeon",
+		"version": "E5-2670 v3",
+		"vendor": "Intel",
+		"other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+		"cache_l1i": 32768,
+		"cache_l1d": 32768,
+		"cache_l2": 262144,
+		"cache_l3": 31457280
+	}
+}
