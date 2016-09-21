@@ -172,6 +172,24 @@
       "rev": "DL29",
       "size": 1600321314816,
       "vendor": "Intel"
+    },
+    {
+      "device": "nvme0n1",
+      "driver": "nvme",
+      "humanized_size": "2 TB",
+      "interface": "PCIe",
+      "model": "P3700",
+      "size": 2000398934016,
+      "vendor": "Intel"
+    },
+    {
+      "device": "nvme1n1",
+      "driver": "nvme",
+      "humanized_size": "2 TB",
+      "interface": "PCIe",
+      "model": "P3700",
+      "size": 2000398934016,
+      "vendor": "Intel"
     }
   ],
   "supported_job_types": {
