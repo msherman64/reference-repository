@@ -50,6 +50,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_type": "storage",
   "operating_system": {
     "kernel": "3.10.0-229.4.2.el7.x86_64",
     "name": "centos",

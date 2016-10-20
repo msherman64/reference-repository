@@ -74,6 +74,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_type": "storage_hierarchy",
   "operating_system": {
     "kernel": null,
     "name": null,

@@ -88,6 +88,7 @@
       "version": "MT4099"
     }
   ],
+  "node_type": "compute_ib",
   "operating_system": {
     "kernel": "3.10.0-229.4.2.el7.x86_64",
     "name": "centos",
