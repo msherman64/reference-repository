@@ -18,7 +18,7 @@
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "128 GiB",
+    "humanized_ram_size": "64 GiB",
     "ram_size": 67445506048
   },
   "monitoring": {
@@ -50,7 +50,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
-  "node_type": "compute",
+  "node_type": "storage",
   "operating_system": {
     "kernel": "3.10.0-229.4.2.el7.x86_64",
     "name": "centos",
