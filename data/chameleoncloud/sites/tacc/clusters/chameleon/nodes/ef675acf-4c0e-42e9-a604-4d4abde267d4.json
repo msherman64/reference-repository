@@ -14,6 +14,12 @@
     "name": "PowerEdge R730",
     "serial": "1M4LD42"
   },
+  "fpga": {
+    "board_model": "385A",
+    "board_vendor": "Nallatech",
+    "fpga_model": "Arria 10 1150 GX",
+    "fpga_vendor": "Altera"
+  },
   "gpu": {
     "gpu": false
   },
@@ -74,7 +80,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
-  "node_type": "compute",
+  "node_type": "fpga",
   "operating_system": {
     "kernel": null,
     "name": null,
@@ -110,6 +116,6 @@
     "deploy": true,
     "virtual": "ivt"
   },
-  "type": "fpga",
+  "type": "node",
   "uid": "ef675acf-4c0e-42e9-a604-4d4abde267d4"
 }
