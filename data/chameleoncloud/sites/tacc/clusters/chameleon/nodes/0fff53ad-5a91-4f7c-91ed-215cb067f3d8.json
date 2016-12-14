@@ -72,7 +72,7 @@
   "storage_devices": [
     {
       "device": "sda",
-      "driver": "megaraid_sas",
+      "driver": "ahci",
       "humanized_size": "400 GB",
       "interface": "SATA",
       "model": "INTEL SSDSC1BG40",
