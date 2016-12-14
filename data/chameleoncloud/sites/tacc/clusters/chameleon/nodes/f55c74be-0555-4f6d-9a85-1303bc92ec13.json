@@ -1,0 +1,91 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 1,
+    "smt_size": 8
+  },
+  "bios": {
+    "release_date": "10/26/2015",
+    "vendor": "HP",
+    "version": "H06"
+  },
+  "chassis": {
+    "manufacturer": "HP",
+    "name": "ProLiant m710p Server Cartridge",
+    "serial": "CN66210D9T"
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "humanized_ram_size": "32 GiB",
+    "ram_size": 33285996544
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "eno1",
+      "driver": "mlx4_en",
+      "interface": "Ethernet",
+      "mac": "94:57:a5:d3:c6:a2",
+      "management": false,
+      "model": "MT27520 Family [ConnectX-3 Pro]",
+      "mounted": true,
+      "rate": 10000000000,
+      "vendor": "Mellanox Technologies"
+    },
+    {
+      "bridged": false,
+      "device": "eno2",
+      "driver": "mlx4_en",
+      "interface": "Ethernet",
+      "mac": "94:57:a5:d3:c6:a3",
+      "management": false,
+      "model": "MT27520 Family [ConnectX-3 Pro]",
+      "mounted": false,
+      "rate": 10000000000,
+      "vendor": "Mellanox Technologies"
+    }
+  ],
+  "node_type": "lowpower_xeon",
+  "operating_system": {
+    "kernel": null,
+    "name": null,
+    "version": null
+  },
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 262144,
+    "cache_l3": 6291456,
+    "clock_speed": 2900000000,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E3-1284L v4 @ 2.90GHz",
+    "vendor": "Intel",
+    "version": "E3-1284L v4"
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "driver": "ahci",
+      "humanized_size": "120 GB",
+      "interface": "SATA",
+      "model": "XR0120GFLKB",
+      "rev": "HPS1",
+      "size": 120034123776,
+      "vendor": "HP"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "f55c74be-0555-4f6d-9a85-1303bc92ec13"
+}
