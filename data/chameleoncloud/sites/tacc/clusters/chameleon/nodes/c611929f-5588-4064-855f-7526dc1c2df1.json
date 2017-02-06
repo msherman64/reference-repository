@@ -27,7 +27,7 @@
   "network_adapters": [
     {
       "bridged": false,
-      "device": "eth0",
+      "device": "enp1s0",
       "driver": "mlx4_en",
       "interface": "Ethernet",
       "mac": "14:58:d0:58:45:82",
@@ -39,7 +39,7 @@
     },
     {
       "bridged": false,
-      "device": "eth1",
+      "device": "enp1s0d1",
       "driver": "mlx4_en",
       "interface": "Ethernet",
       "mac": "14:58:d0:58:45:83",
