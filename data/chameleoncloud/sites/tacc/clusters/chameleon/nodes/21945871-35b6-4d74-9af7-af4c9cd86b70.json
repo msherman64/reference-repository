@@ -75,11 +75,6 @@
     }
   ],
   "node_type": "storage_hierarchy",
-  "operating_system": {
-    "kernel": null,
-    "name": null,
-    "version": null
-  },
   "processor": {
     "cache_l1": null,
     "cache_l1d": 32768,
