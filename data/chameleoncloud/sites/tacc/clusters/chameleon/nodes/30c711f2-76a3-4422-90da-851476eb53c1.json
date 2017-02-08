@@ -1,0 +1,70 @@
+{
+  "architecture": {
+    "platform_type": null,
+    "smp_size": null,
+    "smt_size": null
+  },
+  "bios": {
+    "release_date": null,
+    "vendor": null,
+    "version": null
+  },
+  "chassis": {
+    "manufacturer": null,
+    "name": null,
+    "serial": null
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "humanized_ram_size": "64 GiB",
+    "ram_size": null
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "enp1s0",
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "MT27520 Family [ConnectX-3 Pro]",
+      "mounted": null,
+      "rate": 10000000000,
+      "vendor": "Mellanox Technologies"
+    },
+    {
+      "bridged": false,
+      "device": "enp1s0d1",
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "MT27520 Family [ConnectX-3 Pro]",
+      "mounted": null,
+      "rate": 10000000000,
+      "vendor": "Mellanox Technologies"
+    }
+  ],
+  "node_type": "arm64",
+  "processor": {
+    "clock_speed": 2400000000,
+    "instruction_set": null,
+    "model": "X-Gene",
+    "vendor": "AppliedMicro"
+  },
+  "storage_devices": [
+
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": true
+  },
+  "type": "node",
+  "uid": "30c711f2-76a3-4422-90da-851476eb53c1"
+}
