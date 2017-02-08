@@ -1,25 +1,25 @@
 {
   "architecture": {
-    "platform_type": null,
-    "smp_size": null,
-    "smt_size": null
+    "platform_type": "aarch64",
+    "smp_size": 1,
+    "smt_size": 8
   },
   "bios": {
-    "release_date": null,
-    "vendor": null,
-    "version": null
+    "release_date": "10/02/2015",
+    "vendor": "HP",
+    "version": "U02"
   },
   "chassis": {
-    "manufacturer": null,
-    "name": null,
-    "serial": null
+    "manufacturer": "HP",
+    "name": "HP ProLiant m400 Server Cartridge",
+    "serial": "CN7505VJ3D"
   },
   "gpu": {
     "gpu": false
   },
   "main_memory": {
     "humanized_ram_size": "64 GiB",
-    "ram_size": null
+    "ram_size": 67645734912
   },
   "monitoring": {
     "wattmeter": false
@@ -28,24 +28,24 @@
     {
       "bridged": false,
       "device": "enp1s0",
-      "driver": null,
-      "interface": null,
-      "mac": null,
-      "management": null,
+      "driver": "mlx4_en",
+      "interface": "Ethernet",
+      "mac": "14:58:d0:58:74:d2",
+      "management": false,
       "model": "MT27520 Family [ConnectX-3 Pro]",
-      "mounted": null,
+      "mounted": true,
       "rate": 10000000000,
       "vendor": "Mellanox Technologies"
     },
     {
       "bridged": false,
       "device": "enp1s0d1",
-      "driver": null,
-      "interface": null,
-      "mac": null,
-      "management": null,
+      "driver": "mlx4_en",
+      "interface": "Ethernet",
+      "mac": "14:58:d0:58:74:d3",
+      "management": false,
       "model": "MT27520 Family [ConnectX-3 Pro]",
-      "mounted": null,
+      "mounted": false,
       "rate": 10000000000,
       "vendor": "Mellanox Technologies"
     }
@@ -53,12 +53,21 @@
   "node_type": "arm64",
   "processor": {
     "clock_speed": 2400000000,
-    "instruction_set": null,
+    "instruction_set": "aarch64",
     "model": "X-Gene",
     "vendor": "AppliedMicro"
   },
   "storage_devices": [
-
+    {
+      "device": "sda",
+      "driver": "ahci_xgene",
+      "humanized_size": "120 GB",
+      "interface": "SATA",
+      "model": "XR0120GFLKB",
+      "rev": "HPS0",
+      "size": 120034123776,
+      "vendor": "HP"
+    }
   ],
   "supported_job_types": {
     "besteffort": false,
