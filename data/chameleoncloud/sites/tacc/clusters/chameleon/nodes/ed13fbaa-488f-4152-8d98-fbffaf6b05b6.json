@@ -15,7 +15,10 @@
     "serial": "HN4ZHH2"
   },
   "gpu": {
-    "gpu": false
+    "gpu": true,
+    "gpu_count": 4,
+    "gpu_model": "P100",
+    "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
     "humanized_ram_size": "128 GiB",
@@ -74,7 +77,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
-  "node_type": "gpu_p100_nflink",
+  "node_type": "gpu_p100_nvlink",
   "processor": {
     "cache_l1": null,
     "cache_l1d": 32768,
