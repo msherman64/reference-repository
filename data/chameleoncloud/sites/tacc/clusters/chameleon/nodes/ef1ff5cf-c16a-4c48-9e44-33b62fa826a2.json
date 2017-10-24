@@ -1,0 +1,110 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 56
+  },
+  "bios": {
+    "release_date": "01/06/2017",
+    "vendor": "Dell Inc.",
+    "version": 2.4
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge C4130",
+    "serial": "HN52JH2"
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "humanized_ram_size": "128 GiB",
+    "ram_size": 137438953472
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "eno1",
+      "driver": "igb",
+      "interface": "Ethernet",
+      "mac": "f4:8e:38:cf:09:b8",
+      "management": false,
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "mounted": false,
+      "rate": 10000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno2",
+      "driver": "igb",
+      "interface": "Ethernet",
+      "mac": "f4:8e:38:cf:09:ba",
+      "management": false,
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "mounted": false,
+      "rate": 10000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno3",
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "mounted": null,
+      "rate": 1000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno4",
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "mounted": null,
+      "rate": 1000000000,
+      "vendor": "Broadcom Corporation"
+    }
+  ],
+  "node_type": "gpu_p100_nflink",
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 262144,
+    "cache_l3": 36700160,
+    "clock_speed": 3200000000,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2660 v4 @ 2.00GHz",
+    "vendor": "Intel",
+    "version": "E5-2660 v4"
+  },
+  "storage_devices": [
+    {
+      "device": null,
+      "driver": "megaraid_sas",
+      "humanized_size": "200 GB",
+      "interface": "SATA",
+      "model": "INTEL SSDSC1BG20",
+      "rev": "DL2D",
+      "size": 200049647616,
+      "vendor": "Intel"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "ef1ff5cf-c16a-4c48-9e44-33b62fa826a2"
+}
