@@ -7,7 +7,7 @@
   "bios": {
     "release_date": "03/09/2015",
     "vendor": "Dell Inc.",
-    "version": 1.2
+    "version": 2.6
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
@@ -109,7 +109,7 @@
       "humanized_size": "250 GB",
       "interface": "SATA",
       "model": "ST9250610NS",
-      "rev": "AA63",
+      "rev": "AA65",
       "size": 250059350016,
       "vendor": "Seagate"
     }
