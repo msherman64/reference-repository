@@ -75,6 +75,10 @@
     }
   ],
   "node_type": "compute",
+  "placement": {
+    "node": 14,
+    "rack": 2
+  },
   "processor": {
     "cache_l1": null,
     "cache_l1d": 32768,
