@@ -93,7 +93,7 @@
   },
   "storage_devices": [
     {
-      "device": null,
+      "device": "sda",
       "driver": "megaraid_sas",
       "humanized_size": "200 GB",
       "interface": "SATA",

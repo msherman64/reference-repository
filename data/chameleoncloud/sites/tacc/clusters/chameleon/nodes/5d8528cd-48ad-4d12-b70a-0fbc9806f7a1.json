@@ -74,7 +74,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
-  "node_type": "compute",
+  "node_type": "compute_haswell",
   "processor": {
     "cache_l1": null,
     "cache_l1d": 32768,

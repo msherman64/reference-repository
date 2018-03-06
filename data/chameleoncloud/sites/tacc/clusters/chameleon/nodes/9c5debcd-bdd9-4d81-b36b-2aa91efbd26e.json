@@ -88,7 +88,7 @@
       "version": "MT4099"
     }
   ],
-  "node_type": "compute_ib",
+  "node_type": "compute_haswell_ib",
   "processor": {
     "cache_l1": null,
     "cache_l1d": 32768,
