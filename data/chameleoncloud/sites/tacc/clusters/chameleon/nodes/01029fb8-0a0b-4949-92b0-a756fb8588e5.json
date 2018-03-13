@@ -77,15 +77,15 @@
     {
       "bridged": false,
       "device": "ib0",
-      "driver": null,
+      "driver": "mlx4_core",
       "guid": "20:00:55:00:41:80:00:00:00:00:00:00:e4:1d:2d:03:00:01:1a:f1",
       "interface": "InfiniBand",
       "management": false,
       "model": "MT27500 Family [ConnectX-3]",
-      "mounted": null,
+      "mounted": false,
       "rate": 56000000000,
       "vendor": "Mellanox Technologies",
-      "version": null
+      "version": "MT4099"
     }
   ],
   "node_type": "compute_haswell_ib",
