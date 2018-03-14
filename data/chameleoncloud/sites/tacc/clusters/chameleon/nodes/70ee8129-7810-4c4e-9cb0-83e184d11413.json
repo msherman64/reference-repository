@@ -51,6 +51,9 @@
     }
   ],
   "node_type": "atom",
+  "placement": {
+    "rack": 10
+  },
   "processor": {
     "cache_l1": null,
     "cache_l1d": 24576,
