@@ -19,7 +19,7 @@
   },
   "main_memory": {
     "humanized_ram_size": "64 GiB",
-    "ram_size": 67445407744
+    "ram_size": 68719476736
   },
   "monitoring": {
     "wattmeter": false
