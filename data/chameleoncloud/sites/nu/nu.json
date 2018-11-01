@@ -1,0 +1,14 @@
+{
+  "description": "Northwestern University",
+  "email_contact": "help@chameleoncloud.org",
+  "latitude": 42.056459,
+  "location": "Evanston, Illinois, USA",
+  "longitude": -87.675267,
+  "name": "NU",
+  "security_contact": "help@chameleoncloud.org",
+  "sys_admin_contact": "help@chameleoncloud.org",
+  "type": "site",
+  "uid": "nu",
+  "user_support_contact": "help@chameleoncloud.org",
+  "web": "https://www.chameleoncloud.org"
+}
