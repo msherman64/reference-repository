@@ -5,9 +5,9 @@
     "smt_size": 40
   },
   "bios": {
-    "release_date": "04/17/2015",
+    "release_date": "05/23/2018",
     "vendor": "Dell Inc.",
-    "version": 1.0
+    "version": 2.8
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
@@ -19,7 +19,7 @@
   },
   "main_memory": {
     "humanized_ram_size": "64 GiB",
-    "ram_size": 67445506048
+    "ram_size": 68719476736
   },
   "monitoring": {
     "wattmeter": false
