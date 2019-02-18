@@ -5,9 +5,9 @@
     "smt_size": 40
   },
   "bios": {
-    "release_date": "04/17/2015",
+    "release_date": "06/12/2018",
     "vendor": "Dell Inc.",
-    "version": 1.0
+    "version": "2.8"
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
