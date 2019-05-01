@@ -15,10 +15,7 @@
     "serial": "1LZKD42"
   },
   "gpu": {
-    "gpu": true,
-    "gpu_count": 2,
-    "gpu_model": "P100",
-    "gpu_vendor": "NVIDIA"
+    "gpu": false
   },
   "main_memory": {
     "humanized_ram_size": "128 GiB",
@@ -32,6 +29,7 @@
       "bridged": false,
       "device": "eno1",
       "driver": "bnx2x",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "44:a8:42:27:25:2c",
       "management": false,
@@ -44,6 +42,7 @@
       "bridged": false,
       "device": "eno2",
       "driver": "bnx2x",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "44:a8:42:27:25:2e",
       "management": false,
@@ -56,6 +55,7 @@
       "bridged": false,
       "device": "eno3",
       "driver": "bnx2x",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "44:a8:42:27:25:30",
       "management": false,
@@ -68,6 +68,7 @@
       "bridged": false,
       "device": "eno4",
       "driver": "bnx2x",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "44:a8:42:27:25:32",
       "management": false,

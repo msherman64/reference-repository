@@ -17,7 +17,7 @@
   "gpu": {
     "gpu": true,
     "gpu_count": 2,
-    "gpu_model": "P100",
+    "gpu_model": "Unknown",
     "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
@@ -32,6 +32,7 @@
       "bridged": false,
       "device": "eno1",
       "driver": "bnx2x",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "44:a8:42:26:f8:62",
       "management": false,
@@ -44,6 +45,7 @@
       "bridged": false,
       "device": "eno2",
       "driver": "bnx2x",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "44:a8:42:26:f8:64",
       "management": false,
@@ -56,6 +58,7 @@
       "bridged": false,
       "device": "eno3",
       "driver": "bnx2x",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "44:a8:42:26:f8:66",
       "management": false,
@@ -68,6 +71,7 @@
       "bridged": false,
       "device": "eno4",
       "driver": "bnx2x",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "44:a8:42:26:f8:68",
       "management": false,
