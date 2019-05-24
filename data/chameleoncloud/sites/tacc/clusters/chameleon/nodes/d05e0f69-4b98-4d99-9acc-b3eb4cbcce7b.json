@@ -7,17 +7,17 @@
   "bios": {
     "release_date": "005/17/2018",
     "vendor": "Dell Inc.",
-    "version": "2.8"
+    "version": 2.8
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
     "name": "PowerEdge R730",
-    "serial": "1LZJD42"
+    "serial": "1LWJD42"
   },
   "gpu": {
     "gpu": true,
     "gpu_count": 2,
-    "gpu_model": "Unknown",
+    "gpu_model": "P100",
     "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
@@ -34,7 +34,7 @@
       "driver": "bnx2x",
       "enabled": true,
       "interface": "Ethernet",
-      "mac": "44:a8:42:26:fb:7e",
+      "mac": "44:a8:42:27:12:29",
       "management": false,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": true,
@@ -47,7 +47,7 @@
       "driver": "bnx2x",
       "enabled": false,
       "interface": "Ethernet",
-      "mac": "44:a8:42:26:fb:80",
+      "mac": "44:a8:42:27:12:2b",
       "management": false,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": false,
@@ -60,7 +60,7 @@
       "driver": "bnx2x",
       "enabled": false,
       "interface": "Ethernet",
-      "mac": "44:a8:42:26:fb:82",
+      "mac": "44:a8:42:27:12:2d",
       "management": false,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": false,
@@ -73,7 +73,7 @@
       "driver": "bnx2x",
       "enabled": false,
       "interface": "Ethernet",
-      "mac": "44:a8:42:26:fb:84",
+      "mac": "44:a8:42:27:12:2f",
       "management": false,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
       "mounted": false,
@@ -102,11 +102,11 @@
     {
       "device": "sda",
       "driver": "megaraid_sas",
-      "humanized_size": "250 GB",
+      "humanized_size": "1 TB",
       "interface": "SATA",
-      "model": "ST9250610NS",
-      "rev": "AA63",
-      "size": 250059350016,
+      "model": "ST1000NX0443",
+      "rev": "NB33",
+      "size": 1000204886016,
       "vendor": "Seagate"
     }
   ],
