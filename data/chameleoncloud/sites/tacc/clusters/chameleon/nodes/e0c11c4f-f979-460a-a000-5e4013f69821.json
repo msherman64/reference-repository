@@ -17,7 +17,7 @@
   "gpu": {
     "gpu": true,
     "gpu_count": 2,
-    "gpu_model": "Unknown",
+    "gpu_model": "P100",
     "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
