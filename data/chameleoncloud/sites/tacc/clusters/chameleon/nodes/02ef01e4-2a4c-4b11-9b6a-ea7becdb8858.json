@@ -93,7 +93,7 @@
     "model": "Intel Xeon",
     "other_description": "Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz",
     "vendor": "Intel",
-    "version": null
+    "version": "Gold 6242"
   },
   "storage_devices": [
     {
