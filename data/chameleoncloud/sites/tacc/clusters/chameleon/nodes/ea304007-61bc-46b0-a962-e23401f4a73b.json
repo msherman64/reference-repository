@@ -1,0 +1,117 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 64
+  },
+  "bios": {
+    "release_date": "08/15/2019",
+    "vendor": "Dell Inc.",
+    "version": 2.3
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R740",
+    "serial": "HZWJ903"
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 200789721088
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "eno1np0",
+      "driver": "bnxt_en",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "b0:26:28:ea:19:02",
+      "management": false,
+      "model": "BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller (rev 01)",
+      "mounted": true,
+      "rate": 10000000000,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "bridged": false,
+      "device": "eno1np1",
+      "driver": null,
+      "enabled": false,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "BCM57412 NetXtreme-E 10Gb RDMA Ethernet Controller (rev 01)",
+      "mounted": null,
+      "rate": 10000000000,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "bridged": false,
+      "device": "eno3",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "b0:26:28:ea:19:00",
+      "management": false,
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "mounted": false,
+      "rate": 1000000000,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "bridged": false,
+      "device": "eno4",
+      "driver": "tg3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "b0:26:28:ea:19:01",
+      "management": false,
+      "model": "NetXtreme BCM5720 Gigabit Ethernet PCIe",
+      "mounted": false,
+      "rate": 1000000000,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    }
+  ],
+  "node_type": "compute_cascadelake",
+  "placement": {
+    "rack": 6
+  },
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 1048576,
+    "cache_l3": 23068672,
+    "clock_speed": 3900000000,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) Gold 6242 CPU @ 2.80GHz",
+    "vendor": "Intel",
+    "version": "Gold 6242"
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "driver": "megaraid_sas",
+      "humanized_size": "240 GB",
+      "interface": "SATA",
+      "model": "THNSF8240CCSE",
+      "rev": "DACB",
+      "size": 240057409536,
+      "vendor": "Toshiba"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "ea304007-61bc-46b0-a962-e23401f4a73b"
+}
