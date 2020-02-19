@@ -15,7 +15,10 @@
     "serial": "9YPW7M2"
   },
   "gpu": {
-    "gpu": false
+    "gpu": true,
+    "gpu_count": 1,
+    "gpu_model": "RTX 6000",
+    "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
     "humanized_ram_size": "192 GiB",
@@ -78,7 +81,7 @@
       "vendor": "Intel Corporation"
     }
   ],
-  "node_type": "compute_skylake",
+  "node_type": "gpu_rtx_6000",
   "placement": {
     "node": 1,
     "rack": 4
