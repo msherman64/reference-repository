@@ -14,12 +14,6 @@
     "name": "PowerEdge R740",
     "serial": "9YKY7M2"
   },
-  "fpga": {
-    "board_model": "DE5a-Net",
-    "board_vendor": "Terasic",
-    "fpga_model": "Arria 10 GX 1150",
-    "fpga_vendor": "Intel"
-  },
   "gpu": {
     "gpu": true,
     "gpu_count": 1,
@@ -87,7 +81,7 @@
       "vendor": "Intel Corporation"
     }
   ],
-  "node_type": "fpga",
+  "node_type": "gpu_rtx_6000",
   "placement": {
     "node": 15,
     "rack": 3
