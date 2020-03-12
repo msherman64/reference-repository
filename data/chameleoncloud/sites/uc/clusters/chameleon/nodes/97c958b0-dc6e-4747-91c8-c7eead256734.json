@@ -78,6 +78,7 @@
       "vendor": "Intel Corporation"
     }
   ],
+  "node_name": "nc57",
   "node_type": "compute_skylake",
   "placement": {
     "node": 25,

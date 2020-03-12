@@ -78,6 +78,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c58",
   "node_type": "compute_haswell",
   "placement": {
     "node": 16,
