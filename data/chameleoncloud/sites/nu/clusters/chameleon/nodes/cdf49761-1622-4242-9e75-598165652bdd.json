@@ -86,6 +86,7 @@
       "version": "MT4119"
     }
   ],
+  "node_name": "cham5",
   "node_type": "compute_haswell",
   "placement": {
     "node": 0,
