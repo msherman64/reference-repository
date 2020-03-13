@@ -52,6 +52,7 @@
       "vendor": "Mellanox Technologies"
     }
   ],
+  "node_name": "c10-c27n1",
   "node_type": "arm64",
   "placement": {
     "rack": 10

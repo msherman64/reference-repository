@@ -52,6 +52,7 @@
       "vendor": "Mellanox Technologies"
     }
   ],
+  "node_name": "c10-c2n1",
   "node_type": "lowpower_xeon",
   "placement": {
     "rack": 10

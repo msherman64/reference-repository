@@ -78,6 +78,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c04-03-retired",
   "node_type": "compute_haswell",
   "placement": {
     "rack": 4

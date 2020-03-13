@@ -78,6 +78,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c10-21",
   "node_type": "storage_hierarchy",
   "placement": {
     "rack": 10

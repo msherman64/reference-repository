@@ -81,6 +81,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c11-02",
   "node_type": "gpu_p100_nvlink",
   "placement": {
     "rack": 11

@@ -78,6 +78,7 @@
       "vendor": "Intel Corporation"
     }
   ],
+  "node_name": "c12-08",
   "node_type": "compute_skylake",
   "placement": {
     "rack": 12
