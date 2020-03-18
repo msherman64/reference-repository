@@ -52,6 +52,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c05-46",
   "node_type": "storage",
   "placement": {
     "rack": 5

@@ -81,6 +81,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c10-43",
   "node_type": "gpu_p100",
   "placement": {
     "rack": 10

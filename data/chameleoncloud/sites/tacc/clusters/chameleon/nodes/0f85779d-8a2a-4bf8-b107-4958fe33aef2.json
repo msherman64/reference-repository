@@ -78,6 +78,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c06-21",
   "node_type": "compute_haswell",
   "placement": {
     "rack": 6

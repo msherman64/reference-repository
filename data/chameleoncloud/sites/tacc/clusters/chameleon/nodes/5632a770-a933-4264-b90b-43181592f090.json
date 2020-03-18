@@ -81,6 +81,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c10-23",
   "node_type": "gpu_k80",
   "placement": {
     "rack": 10

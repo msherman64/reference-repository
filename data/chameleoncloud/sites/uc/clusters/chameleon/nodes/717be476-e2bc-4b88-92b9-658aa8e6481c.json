@@ -52,6 +52,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "fx2-06",
   "node_type": "storage",
   "placement": {
     "node": 44,

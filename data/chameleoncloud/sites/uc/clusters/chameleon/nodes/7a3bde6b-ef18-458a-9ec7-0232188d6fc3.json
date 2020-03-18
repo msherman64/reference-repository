@@ -81,6 +81,7 @@
       "vendor": "Intel Corporation"
     }
   ],
+  "node_name": "nc12",
   "node_type": "gpu_rtx_6000",
   "placement": {
     "node": 12,

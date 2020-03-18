@@ -93,6 +93,7 @@
       "version": "MT4099"
     }
   ],
+  "node_name": "c01-02",
   "node_type": "compute_haswell_ib",
   "placement": {
     "rack": 1

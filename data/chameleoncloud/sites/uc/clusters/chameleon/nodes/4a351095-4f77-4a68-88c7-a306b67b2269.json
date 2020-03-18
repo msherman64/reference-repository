@@ -84,6 +84,7 @@
       "vendor": "Intel Corporation"
     }
   ],
+  "node_name": "nc64",
   "node_type": "fpga",
   "placement": {
     "node": 32,

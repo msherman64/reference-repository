@@ -52,6 +52,7 @@
       "vendor": "Intel Corporation"
     }
   ],
+  "node_name": "c10-c33n1",
   "node_type": "atom",
   "placement": {
     "rack": 10

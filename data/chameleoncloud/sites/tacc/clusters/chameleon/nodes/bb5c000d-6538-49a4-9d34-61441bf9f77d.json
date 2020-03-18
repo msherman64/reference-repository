@@ -81,6 +81,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c10-25",
   "node_type": "gpu_m40",
   "placement": {
     "rack": 10

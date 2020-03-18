@@ -84,6 +84,7 @@
       "vendor": "Broadcom Corporation"
     }
   ],
+  "node_name": "c10-30",
   "node_type": "fpga",
   "placement": {
     "rack": 10
