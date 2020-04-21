@@ -14,12 +14,20 @@
     "name": "PowerEdge R730",
     "serial": "1LRJD42"
   },
-  "gpu": {
-    "gpu": true,
-    "gpu_count": 2,
-    "gpu_model": "P100",
-    "gpu_vendor": "NVIDIA"
-  },
+  "gpu": [
+    {
+      "gpu": true,
+      "gpu_count": 1,
+      "gpu_model": "P100",
+      "gpu_vendor": "NVIDIA"
+    },
+    {
+      "gpu": true,
+      "gpu_count": 1,
+      "gpu_model": "V100",
+      "gpu_vendor": "NVIDIA"
+    }
+  ],
   "main_memory": {
     "humanized_ram_size": "128 GiB",
     "ram_size": 137438953472
@@ -82,7 +90,7 @@
     }
   ],
   "node_name": "c10-38",
-  "node_type": "gpu_p100",
+  "node_type": "gpu_p100_v100",
   "placement": {
     "rack": 10
   },
