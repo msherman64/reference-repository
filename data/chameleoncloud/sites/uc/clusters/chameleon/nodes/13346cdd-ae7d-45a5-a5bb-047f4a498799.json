@@ -15,7 +15,10 @@
     "serial": null
   },
   "gpu": {
-    "gpu": false
+    "gpu": true,
+    "gpu_count": 4,
+    "gpu_model": "V100",
+    "gpu_vendor": "NVIDIA"
   },
   "main_memory": {
     "humanized_ram_size": "128 GiB",
@@ -98,7 +101,16 @@
     "version": null
   },
   "storage_devices": [
-
+    {
+      "device": "sda",
+      "driver": "ahci",
+      "humanized_size": "239 GB",
+      "interface": "SATA",
+      "model": "DELLBOSS VD",
+      "rev": "MV.R00-0",
+      "size": 239990276096,
+      "vendor": "Intel"
+    }
   ],
   "supported_job_types": {
     "besteffort": false,
