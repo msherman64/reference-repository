@@ -71,7 +71,16 @@
     "version": null
   },
   "storage_devices": [
-
+    {
+      "device": "sda",
+      "driver": "megaraid_sas",
+      "humanized_size": "480 GB",
+      "interface": "SATA",
+      "model": "MTFDDAK480TDS",
+      "rev": "D3DJ004",
+      "size": 480103981056,
+      "vendor": "Micron"
+    }
   ],
   "supported_job_types": {
     "besteffort": false,
