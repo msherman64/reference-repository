@@ -78,10 +78,10 @@
       "vendor": "Broadcom Inc. and subsidiaries"
     }
   ],
-  "node_name": "c04-07",
+  "node_name": "c07-03",
   "node_type": "compute_cascadelake",
   "placement": {
-    "rack": 4
+    "rack": 7
   },
   "processor": {
     "cache_l1": null,

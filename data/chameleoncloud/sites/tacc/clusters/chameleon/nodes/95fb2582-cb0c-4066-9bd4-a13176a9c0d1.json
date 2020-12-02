@@ -1,0 +1,92 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 96
+  },
+  "bios": {
+    "release_date": "08/27/2020",
+    "vendor": "Dell Inc.",
+    "version": "2.8.2"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": null,
+    "serial": null
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 206158430208
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "eno1",
+      "driver": null,
+      "enabled": true,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller (rev 01)",
+      "mounted": null,
+      "rate": 10000000000,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "bridged": false,
+      "device": "eno2",
+      "driver": null,
+      "enabled": true,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "BCM57414 NetXtreme-E 10Gb/25Gb RDMA Ethernet Controller (rev 01)",
+      "mounted": null,
+      "rate": 10000000000,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    }
+  ],
+  "node_name": "c07-12",
+  "node_type": "compute_cascadelake_r",
+  "placement": {
+    "rack": 7
+  },
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 1048576,
+    "cache_l3": 37486592,
+    "clock_speed": null,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
+    "vendor": "Intel",
+    "version": null
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "driver": "megaraid_sas",
+      "humanized_size": "480 GB",
+      "interface": "SATA",
+      "model": "MTFDDAK480TDS",
+      "rev": "D3DJ004",
+      "size": 480103981056,
+      "vendor": "Micron"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "95fb2582-cb0c-4066-9bd4-a13176a9c0d1"
+}
