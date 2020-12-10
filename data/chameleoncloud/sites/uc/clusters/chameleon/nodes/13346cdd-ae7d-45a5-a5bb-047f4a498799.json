@@ -81,11 +81,11 @@
       "vendor": "Broadcom Corporation"
     }
   ],
-  "node_name": "nc65",
+  "node_name": "gpu01",
   "node_type": "gpu_v100",
   "placement": {
-    "node": 33,
-    "rack": 4
+    "node": 1,
+    "rack": 5
   },
   "processor": {
     "cache_l1": null,
