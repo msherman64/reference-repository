@@ -7,19 +7,19 @@
   "bios": {
     "release_date": "10/002/2015",
     "vendor": "Dell Inc.",
-    "version": 1.5
+    "version": "1.5.4"
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
-    "name": "PowerEdge R630",
-    "serial": "4GRY482"
+    "name": null,
+    "serial": null
   },
   "gpu": {
     "gpu": false
   },
   "main_memory": {
     "humanized_ram_size": "128 GiB",
-    "ram_size": 137438953472
+    "ram_size": null
   },
   "monitoring": {
     "wattmeter": false
@@ -28,65 +28,53 @@
     {
       "bridged": false,
       "device": "eno1",
-      "driver": "bnx2x",
-      "interface": "Ethernet",
-      "mac": "14:18:77:54:0d:d1",
-      "management": false,
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": true,
+      "mounted": null,
       "rate": 10000000000,
       "vendor": "Broadcom Corporation"
     },
     {
       "bridged": false,
       "device": "eno2",
-      "driver": "bnx2x",
-      "interface": "Ethernet",
-      "mac": "14:18:77:54:0d:d3",
-      "management": false,
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": false,
+      "mounted": null,
       "rate": 10000000000,
       "vendor": "Broadcom Corporation"
     },
     {
       "bridged": false,
       "device": "eno3",
-      "driver": "bnx2x",
-      "interface": "Ethernet",
-      "mac": "14:18:77:54:0d:d5",
-      "management": false,
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": false,
+      "mounted": null,
       "rate": 1000000000,
       "vendor": "Broadcom Corporation"
     },
     {
       "bridged": false,
       "device": "eno4",
-      "driver": "bnx2x",
-      "interface": "Ethernet",
-      "mac": "14:18:77:54:0d:d7",
-      "management": false,
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
       "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": false,
+      "mounted": null,
       "rate": 1000000000,
       "vendor": "Broadcom Corporation"
-    },
-    {
-      "bridged": false,
-      "device": "enp129s0",
-      "driver": "mlx5_core",
-      "interface": "Ethernet",
-      "management": false,
-      "model": "MT27800 Family [ConnectX-5]",
-      "mounted": false,
-      "rate": 100000000000,
-      "vendor": "Mellanox Technologies",
-      "version": "MT4119"
     }
   ],
-  "node_name": "cham5",
+  "node_name": "r630cham5",
   "node_type": "compute_haswell",
   "placement": {
     "node": 0,
@@ -98,7 +86,7 @@
     "cache_l1i": 32768,
     "cache_l2": 262144,
     "cache_l3": 31457280,
-    "clock_speed": 3100000000,
+    "clock_speed": null,
     "instruction_set": "x86-64",
     "model": "Intel Xeon",
     "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
@@ -106,16 +94,7 @@
     "version": "E5-2670 v3"
   },
   "storage_devices": [
-    {
-      "device": "sda",
-      "driver": "megaraid_sas",
-      "humanized_size": "250 GB",
-      "interface": "SATA",
-      "model": "ST9250610NS",
-      "rev": "AA63",
-      "size": 250059350016,
-      "vendor": "Seagate"
-    }
+
   ],
   "supported_job_types": {
     "besteffort": false,
@@ -123,5 +102,5 @@
     "virtual": "ivt"
   },
   "type": "node",
-  "uid": "cdf49761-1622-4242-9e75-598165652bdd"
+  "uid": "b2349504-a69d-4c7d-93d3-5fd27e75d44d"
 }

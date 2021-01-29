@@ -1,0 +1,106 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 48
+  },
+  "bios": {
+    "release_date": "12/04/2018",
+    "vendor": "Dell Inc.",
+    "version": "2.9.1"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": null,
+    "serial": null
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "humanized_ram_size": "128 GiB",
+    "ram_size": null
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "eno1",
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "mounted": null,
+      "rate": 10000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno2",
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "mounted": null,
+      "rate": 10000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno3",
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "mounted": null,
+      "rate": 1000000000,
+      "vendor": "Broadcom Corporation"
+    },
+    {
+      "bridged": false,
+      "device": "eno4",
+      "driver": null,
+      "interface": null,
+      "mac": null,
+      "management": null,
+      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "mounted": null,
+      "rate": 1000000000,
+      "vendor": "Broadcom Corporation"
+    }
+  ],
+  "node_name": "r630cham1",
+  "node_type": "compute_haswell",
+  "placement": {
+    "node": 0,
+    "rack": 1
+  },
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 262144,
+    "cache_l3": 31457280,
+    "clock_speed": null,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel",
+    "version": "E5-2670 v3"
+  },
+  "storage_devices": [
+
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "3d8645f2-2a9e-4012-aa50-3a5977c12289"
+}
