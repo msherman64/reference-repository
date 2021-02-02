@@ -11,15 +11,15 @@
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
-    "name": null,
-    "serial": null
+    "name": "PowerEdge R630",
+    "serial": "49Z6182"
   },
   "gpu": {
     "gpu": false
   },
   "main_memory": {
-    "humanized_ram_size": "128 GiB",
-    "ram_size": null
+    "humanized_ram_size": "128 GB",
+    "ram_size": 128000000000
   },
   "monitoring": {
     "wattmeter": false
@@ -28,50 +28,30 @@
     {
       "bridged": false,
       "device": "eno1",
-      "driver": null,
-      "interface": null,
-      "mac": null,
-      "management": null,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": null,
+      "driver": "bnx2x",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "b0:83:fe:eb:5a:e7",
+      "management": false,
+      "model": "Ethernet Controller X710 for 10GbE SFP+ (rev 01)",
+      "mounted": true,
       "rate": 10000000000,
-      "vendor": "Broadcom Corporation"
-    },
-    {
-      "bridged": false,
-      "device": "eno2",
-      "driver": null,
-      "interface": null,
-      "mac": null,
-      "management": null,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": null,
-      "rate": 10000000000,
-      "vendor": "Broadcom Corporation"
+      "vendor": "Broadcom Corporation",
+      "version": ""
     },
     {
       "bridged": false,
       "device": "eno3",
-      "driver": null,
-      "interface": null,
-      "mac": null,
-      "management": null,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": null,
-      "rate": 1000000000,
-      "vendor": "Broadcom Corporation"
-    },
-    {
-      "bridged": false,
-      "device": "eno4",
-      "driver": null,
-      "interface": null,
-      "mac": null,
-      "management": null,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
-      "mounted": null,
-      "rate": 1000000000,
-      "vendor": "Broadcom Corporation"
+      "driver": "mlx5_core",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "98:03:9b:7f:bb:08",
+      "management": false,
+      "model": "MT27800 Family [ConnectX-5]",
+      "mounted": false,
+      "rate": 100000000000,
+      "vendor": "Mellanox Technologies",
+      "version": "MT4119"
     }
   ],
   "node_name": "r630cham3",
@@ -94,7 +74,16 @@
     "version": "E5-2670 v3"
   },
   "storage_devices": [
-
+    {
+      "device": "sda",
+      "driver": "megaraid_sas",
+      "humanized_size": "1 TB",
+      "interface": "SATA",
+      "model": "ST1000NX0443",
+      "rev": "NB33",
+      "size": 1000204886016,
+      "vendor": "Seagate"
+    }
   ],
   "supported_job_types": {
     "besteffort": false,
