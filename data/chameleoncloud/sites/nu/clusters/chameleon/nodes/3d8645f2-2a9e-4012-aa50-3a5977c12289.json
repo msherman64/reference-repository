@@ -1,0 +1,123 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 48
+  },
+  "bios": {
+    "release_date": "12/04/2018",
+    "vendor": "Dell Inc.",
+    "version": "2.9.1"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R630",
+    "serial": "49Z5182"
+  },
+  "gpu": {
+    "gpu": false
+  },
+  "main_memory": {
+    "humanized_ram_size": "128 GB",
+    "ram_size": 128000000000
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "bridged": false,
+      "device": "eno1",
+      "driver": "bnx2x",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "14:18:77:3e:8f:ef",
+      "management": false,
+      "model": "Ethernet Controller X710 for 10GbE SFP+ (rev 01)",
+      "mounted": true,
+      "rate": 10000000000,
+      "vendor": "Broadcom Corporation",
+      "version": ""
+    },
+    {
+      "bridged": false,
+      "device": "eno5",
+      "driver": "mlx5_core",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "7c:fe:90:5c:18:c2",
+      "management": false,
+      "model": "MT27800 Family [ConnectX-5]",
+      "mounted": false,
+      "rate": 100000000000,
+      "vendor": "Mellanox Technologies",
+      "version": "MT4119"
+    },
+    {
+      "bridged": false,
+      "device": "eno6",
+      "driver": "mlx5_core",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "7c:fe:90:12:bd:d2",
+      "management": false,
+      "model": "MT27800 Family [ConnectX-5]",
+      "mounted": false,
+      "rate": 100000000000,
+      "vendor": "Mellanox Technologies",
+      "version": "MT4119"
+    },
+    {
+      "bridged": false,
+      "device": "eno7",
+      "driver": "mlx5_core",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "7c:fe:90:12:bd:d3",
+      "management": false,
+      "model": "MT27800 Family [ConnectX-5]",
+      "mounted": false,
+      "rate": 100000000000,
+      "vendor": "Mellanox Technologies",
+      "version": "MT4119"
+    }
+  ],
+  "node_name": "r630cham1",
+  "node_type": "compute_haswell",
+  "placement": {
+    "node": 0,
+    "rack": 1
+  },
+  "processor": {
+    "cache_l1": null,
+    "cache_l1d": 32768,
+    "cache_l1i": 32768,
+    "cache_l2": 262144,
+    "cache_l3": 31457280,
+    "clock_speed": null,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel",
+    "version": "E5-2670 v3"
+  },
+  "storage_devices": [
+    {
+      "device": "sda",
+      "driver": "megaraid_sas",
+      "humanized_size": "250 GB",
+      "interface": "SATA",
+      "model": "ST9250610NS",
+      "rev": "AA63",
+      "size": 250059350016,
+      "vendor": "Seagate"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "3d8645f2-2a9e-4012-aa50-3a5977c12289"
+}
