@@ -1,0 +1,14 @@
+{
+  "description": "Edge/IoT",
+  "email_contact": "help@chameleoncloud.org",
+  "latitude": 41.7886,
+  "location": "University of Chicago, Chicago, Illinois, USA",
+  "longitude": 87.5987,
+  "name": "CHI@Edge",
+  "security_contact": "help@chameleoncloud.org",
+  "sys_admin_contact": "help@chameleoncloud.org",
+  "type": "site",
+  "uid": "edge",
+  "user_support_contact": "help@chameleoncloud.org",
+  "web": "https://chi.edge.chameleoncloud.org"
+}
