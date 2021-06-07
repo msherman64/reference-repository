@@ -6,6 +6,7 @@
   "longitude": 87.5987,
   "name": "CHI@Edge",
   "security_contact": "help@chameleoncloud.org",
+  "site_class": "edge",
   "sys_admin_contact": "help@chameleoncloud.org",
   "type": "site",
   "uid": "edge",

@@ -6,6 +6,7 @@
   "longitude": -87.982952,
   "name": "CHI@UC",
   "security_contact": "help@chameleoncloud.org",
+  "site_class": "baremetal",
   "sys_admin_contact": "help@chameleoncloud.org",
   "type": "site",
   "uid": "uc",

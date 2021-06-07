@@ -6,6 +6,7 @@
   "longitude": -97.72563,
   "name": "CHI@TACC",
   "security_contact": "help@chameleoncloud.org",
+  "site_class": "baremetal",
   "sys_admin_contact": "help@chameleoncloud.org",
   "type": "site",
   "uid": "tacc",
