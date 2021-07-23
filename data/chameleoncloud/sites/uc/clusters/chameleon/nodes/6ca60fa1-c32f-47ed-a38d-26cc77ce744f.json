@@ -36,10 +36,10 @@
       "interface": null,
       "mac": null,
       "management": null,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "model": "Ethernet Controller X710 for 10GbE SFP+ (rev 01)",
       "mounted": null,
       "rate": 10000000000,
-      "vendor": "Broadcom Corporation"
+      "vendor": "Intel Corporation"
     },
     {
       "bridged": false,
@@ -49,10 +49,10 @@
       "interface": null,
       "mac": null,
       "management": null,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "model": "Ethernet Controller X710 for 10GbE SFP+ (rev 01)",
       "mounted": null,
       "rate": 10000000000,
-      "vendor": "Broadcom Corporation"
+      "vendor": "Intel Corporation"
     },
     {
       "bridged": false,
@@ -62,10 +62,10 @@
       "interface": null,
       "mac": null,
       "management": null,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "model": "Intel Corporation I350 Gigabit Network Connection (rev 01)",
       "mounted": null,
       "rate": 1000000000,
-      "vendor": "Broadcom Corporation"
+      "vendor": "Intel Corporation"
     },
     {
       "bridged": false,
@@ -75,10 +75,10 @@
       "interface": null,
       "mac": null,
       "management": null,
-      "model": "NetXtreme II BCM57800 1/10 Gigabit Ethernet",
+      "model": "Intel Corporation I350 Gigabit Network Connection (rev 01)",
       "mounted": null,
       "rate": 1000000000,
-      "vendor": "Broadcom Corporation"
+      "vendor": "Intel Corporation"
     }
   ],
   "node_name": "gpu03",
