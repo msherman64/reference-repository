@@ -1,0 +1,133 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 4,
+    "smt_size": 224
+  },
+  "bios": {
+    "release_date": "02/25/2021",
+    "vendor": "Dell Inc.",
+    "version": "2.10.2"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R840",
+    "serial": "591TJD3"
+  },
+  "gpu": {},
+  "main_memory": {
+    "humanized_ram_size": "3792 GiB",
+    "ram_size": 3792000000000
+  },
+  "monitoring": {},
+  "network_adapters": [
+    {
+      "device": "NIC.Integrated.1-1",
+      "interface": "Ethernet",
+      "mac": "2c:ea:7f:eb:7e:14",
+      "model": "BRCM GbE 4P 5720-t rNDC",
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-2",
+      "interface": "Ethernet",
+      "mac": "2c:ea:7f:eb:7e:15",
+      "model": "BRCM GbE 4P 5720-t rNDC",
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-3",
+      "interface": "Ethernet",
+      "mac": "2c:ea:7f:eb:7e:16",
+      "model": "BRCM GbE 4P 5720-t rNDC",
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-4",
+      "interface": "Ethernet",
+      "mac": "2c:ea:7f:eb:7e:17",
+      "model": "BRCM GbE 4P 5720-t rNDC",
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Slot.4-1",
+      "interface": "Ethernet",
+      "mac": "04:3f:72:ff:9b:da",
+      "model": "MLNX 25GbE 2P ConnectX5 Adpt",
+      "rate": 25000000000,
+      "vendor": "Mellanox Technologies"
+    },
+    {
+      "device": "NIC.Slot.4-2",
+      "interface": "Ethernet",
+      "mac": "04:3f:72:ff:9b:db",
+      "model": "MLNX 25GbE 2P ConnectX5 Adpt",
+      "rate": 25000000000,
+      "vendor": "Mellanox Technologies"
+    },
+    {
+      "device": "InfiniBand.Slot.2-1",
+      "interface": "InfiniBand",
+      "mac": "1c:34:da:73:47:12",
+      "model": null,
+      "rate": null,
+      "vendor": "Mellanox Technologies"
+    }
+  ],
+  "node_name": "P3-NVDIMM-002",
+  "node_type": "compute_nvdimm",
+  "placement": {
+    "node": "1",
+    "rack": ""
+  },
+  "processor": {
+    "cache_l1": 1792000,
+    "cache_l2": 28672000,
+    "cache_l3": 39424000,
+    "clock_speed": 2200000000,
+    "instruction_set": "x86-64",
+    "model": "Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz",
+    "vendor": "Intel",
+    "version": null
+  },
+  "storage_devices": [
+    {
+      "device": "Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Slot.3-1",
+      "humanized_size": "960 GB",
+      "interface": "SAS",
+      "model": "KPM5XVUG960G",
+      "rev": "B01C",
+      "size": 960197123584,
+      "vendor": "TOSHIBA"
+    },
+    {
+      "device": "Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Slot.3-1",
+      "humanized_size": "960 GB",
+      "interface": "SAS",
+      "model": "KPM5XVUG960G",
+      "rev": "B01C",
+      "size": 960197123584,
+      "vendor": "TOSHIBA"
+    },
+    {
+      "device": "Disk.Direct.0-0:AHCI.Slot.6-1",
+      "humanized_size": "480 GB",
+      "interface": "SATA",
+      "model": "MTFDDAV480TDS",
+      "rev": "D3DJ004",
+      "size": 480103981056,
+      "vendor": "MICRON"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "21e3f190-ee10-4c38-aceb-64468a2355ef"
+}

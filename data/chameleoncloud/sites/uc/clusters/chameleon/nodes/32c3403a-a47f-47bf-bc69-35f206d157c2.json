@@ -1,0 +1,91 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 96
+  },
+  "bios": {
+    "release_date": "02/24/2021",
+    "vendor": "Dell Inc.",
+    "version": "2.10.2"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R740",
+    "serial": "76G5KD3"
+  },
+  "gpu": {},
+  "main_memory": {
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 192000000000
+  },
+  "monitoring": {},
+  "network_adapters": [
+    {
+      "device": "NIC.Integrated.1-1",
+      "interface": "Ethernet",
+      "mac": "b8:ce:f6:43:46:5e",
+      "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
+      "rate": 25000000000,
+      "vendor": "Mellanox Technologies"
+    },
+    {
+      "device": "NIC.Integrated.1-2",
+      "interface": "Ethernet",
+      "mac": "b8:ce:f6:43:46:5f",
+      "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
+      "rate": 25000000000,
+      "vendor": "Mellanox Technologies"
+    },
+    {
+      "device": "NIC.Slot.7-1",
+      "interface": "Ethernet",
+      "mac": "e4:3d:1a:2d:d8:9a",
+      "model": "BRCM GbE 2P 5720-t Adapter",
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Slot.7-2",
+      "interface": "Ethernet",
+      "mac": "e4:3d:1a:2d:d8:9b",
+      "model": "BRCM GbE 2P 5720-t Adapter",
+      "rate": 0,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    }
+  ],
+  "node_name": "P3-CPU-001",
+  "node_type": "compute_cascadelake_r",
+  "placement": {
+    "node": "1",
+    "rack": ""
+  },
+  "processor": {
+    "cache_l1": 1536000,
+    "cache_l2": 24576000,
+    "cache_l3": 36608000,
+    "clock_speed": 2400000000,
+    "instruction_set": "x86-64",
+    "model": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
+    "vendor": "Intel",
+    "version": null
+  },
+  "storage_devices": [
+    {
+      "device": "Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Slot.6-1",
+      "humanized_size": "480 GB",
+      "interface": "SATA",
+      "model": "SSDSC2KB480G8R",
+      "rev": "XCV1DL69",
+      "size": 480103980544,
+      "vendor": "INTEL"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "32c3403a-a47f-47bf-bc69-35f206d157c2"
+}

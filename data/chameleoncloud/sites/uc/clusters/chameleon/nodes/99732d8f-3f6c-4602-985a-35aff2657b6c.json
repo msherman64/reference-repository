@@ -1,0 +1,116 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 80
+  },
+  "bios": {
+    "release_date": "11/26/2019",
+    "vendor": "Dell Inc.",
+    "version": "2.4.8"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge C4140",
+    "serial": "3J3YN23"
+  },
+  "gpu": {},
+  "main_memory": {
+    "humanized_ram_size": "119 GiB",
+    "ram_size": 119000000000
+  },
+  "monitoring": {},
+  "network_adapters": [
+    {
+      "device": "NIC.Integrated.1-1",
+      "interface": "Ethernet",
+      "mac": "e4:43:4b:b8:ff:0e",
+      "model": "Intel(R) 2P X710/2P I350 rNDC",
+      "rate": 0,
+      "vendor": "Intel Corporation"
+    },
+    {
+      "device": "NIC.Integrated.1-2",
+      "interface": "Ethernet",
+      "mac": "e4:43:4b:b8:ff:10",
+      "model": "Intel(R) 2P X710/2P I350 rNDC",
+      "rate": 0,
+      "vendor": "Intel Corporation"
+    },
+    {
+      "device": "NIC.Integrated.1-3",
+      "interface": "Ethernet",
+      "mac": "e4:43:4b:b8:ff:2e",
+      "model": "Intel(R) 2P X710/2P I350 rNDC",
+      "rate": 0,
+      "vendor": "Intel Corporation"
+    },
+    {
+      "device": "NIC.Integrated.1-4",
+      "interface": "Ethernet",
+      "mac": "e4:43:4b:b8:ff:2f",
+      "model": "Intel(R) 2P X710/2P I350 rNDC",
+      "rate": 0,
+      "vendor": "Intel Corporation"
+    },
+    {
+      "device": "NIC.Slot.1-1",
+      "interface": "Ethernet",
+      "mac": "b8:ce:f6:1d:d8:42",
+      "model": "MLNX 25GbE 2P ConnectX4LX Adpt",
+      "rate": 25000000000,
+      "vendor": "Mellanox Technologies"
+    },
+    {
+      "device": "NIC.Slot.1-2",
+      "interface": "Ethernet",
+      "mac": "b8:ce:f6:1d:d8:43",
+      "model": "MLNX 25GbE 2P ConnectX4LX Adpt",
+      "rate": 25000000000,
+      "vendor": "Mellanox Technologies"
+    }
+  ],
+  "node_name": "P3-GPU-010",
+  "node_type": "gpu_v100",
+  "placement": {
+    "node": "1",
+    "rack": ""
+  },
+  "processor": {
+    "cache_l1": 1280000,
+    "cache_l2": 20480000,
+    "cache_l3": 28160000,
+    "clock_speed": 2100000000,
+    "instruction_set": "x86-64",
+    "model": "Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz",
+    "vendor": "Intel",
+    "version": null
+  },
+  "storage_devices": [
+    {
+      "device": "Disk.Direct.0-0:AHCI.Slot.2-1",
+      "humanized_size": "240 GB",
+      "interface": "SATA",
+      "model": "MTFDDAV240TCB",
+      "rev": "D0DE013",
+      "size": 240057409536,
+      "vendor": "MICRON"
+    },
+    {
+      "device": "Disk.Direct.1-1:AHCI.Slot.2-1",
+      "humanized_size": "240 GB",
+      "interface": "SATA",
+      "model": "MTFDDAV240TCB",
+      "rev": "D0DE013",
+      "size": 240057409536,
+      "vendor": "MICRON"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "99732d8f-3f6c-4602-985a-35aff2657b6c"
+}
