@@ -14,7 +14,12 @@
     "name": "PowerEdge C4140",
     "serial": "3J3WN23"
   },
-  "gpu": {},
+  "gpu": {
+    "gpu": true,
+    "gpu_count": 4,
+    "gpu_model": "GV100GL [Tesla V100 SXM2 32GB]",
+    "gpu_vendor": "NVIDIA Corporation"
+  },
   "main_memory": {
     "humanized_ram_size": "128 GiB",
     "ram_size": 128000000000
@@ -91,6 +96,7 @@
       "device": "Disk.Direct.0-0:AHCI.Slot.2-1",
       "humanized_size": "240 GB",
       "interface": "SATA",
+      "media_type": "SSD",
       "model": "MTFDDAV240TCB",
       "rev": "D0DE012",
       "size": 240057409536,
@@ -100,6 +106,7 @@
       "device": "Disk.Direct.1-1:AHCI.Slot.2-1",
       "humanized_size": "240 GB",
       "interface": "SATA",
+      "media_type": "SSD",
       "model": "MTFDDAV240TCB",
       "rev": "D0DE012",
       "size": 240057409536,

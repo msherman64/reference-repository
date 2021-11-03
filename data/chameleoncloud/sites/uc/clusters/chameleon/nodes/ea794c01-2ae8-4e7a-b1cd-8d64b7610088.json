@@ -14,7 +14,6 @@
     "name": "PowerEdge R740",
     "serial": "76F8KD3"
   },
-  "gpu": {},
   "main_memory": {
     "humanized_ram_size": "192 GiB",
     "ram_size": 192000000000
@@ -75,6 +74,7 @@
       "device": "Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Slot.6-1",
       "humanized_size": "480 GB",
       "interface": "SATA",
+      "media_type": "SSD",
       "model": "SSDSC2KB480G8R",
       "rev": "XCV1DL69",
       "size": 480103980544,

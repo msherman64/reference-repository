@@ -14,7 +14,6 @@
     "name": "PowerEdge R740",
     "serial": "76G7KD3"
   },
-  "gpu": {},
   "main_memory": {
     "humanized_ram_size": "192 GiB",
     "ram_size": 192000000000

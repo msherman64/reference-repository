@@ -14,7 +14,6 @@
     "name": "PowerEdge R840",
     "serial": "591TJD3"
   },
-  "gpu": {},
   "main_memory": {
     "humanized_ram_size": "3792 GiB",
     "ram_size": 3792000000000
@@ -99,6 +98,7 @@
       "device": "Disk.Bay.0:Enclosure.Internal.0-1:NonRAID.Slot.3-1",
       "humanized_size": "960 GB",
       "interface": "SAS",
+      "media_type": "SSD",
       "model": "KPM5XVUG960G",
       "rev": "B01C",
       "size": 960197123584,
@@ -108,6 +108,7 @@
       "device": "Disk.Bay.1:Enclosure.Internal.0-1:NonRAID.Slot.3-1",
       "humanized_size": "960 GB",
       "interface": "SAS",
+      "media_type": "SSD",
       "model": "KPM5XVUG960G",
       "rev": "B01C",
       "size": 960197123584,
@@ -117,6 +118,7 @@
       "device": "Disk.Direct.0-0:AHCI.Slot.6-1",
       "humanized_size": "480 GB",
       "interface": "SATA",
+      "media_type": "SSD",
       "model": "MTFDDAV480TDS",
       "rev": "D3DJ004",
       "size": 480103981056,
