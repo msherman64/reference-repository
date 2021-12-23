@@ -14,6 +14,12 @@
     "name": "PowerEdge R740",
     "serial": "76F0KD3"
   },
+  "fpga": {
+    "board_model": "Alveo U280",
+    "board_vendor": "Xilinx Corporation",
+    "fpga_model": "XCU280",
+    "fpga_vendor": "Xilinx Corporation"
+  },
   "infiniband": true,
   "main_memory": {
     "humanized_ram_size": "192 GiB",
