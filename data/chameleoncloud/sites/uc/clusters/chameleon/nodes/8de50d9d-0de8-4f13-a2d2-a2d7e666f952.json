@@ -17,59 +17,70 @@
   "gpu": {
     "gpu": true,
     "gpu_count": 4,
-    "gpu_model": "GV100GL [Tesla V100 SXM2 32GB]",
+    "gpu_model": "V100",
+    "gpu_name": "GV100GL [Tesla V100 SXM2 32GB]",
     "gpu_vendor": "NVIDIA Corporation"
   },
   "main_memory": {
     "humanized_ram_size": "128 GiB",
     "ram_size": 128000000000
   },
-  "monitoring": {},
+  "monitoring": {
+    "wattmeter": false
+  },
   "network_adapters": [
     {
       "device": "NIC.Integrated.1-1",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "e4:43:4b:b8:f8:22",
+      "management": false,
       "model": "Intel(R) 2P X710/2P I350 rNDC",
-      "rate": 0,
       "vendor": "Intel Corporation"
     },
     {
       "device": "NIC.Integrated.1-2",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "e4:43:4b:b8:f8:24",
+      "management": false,
       "model": "Intel(R) 2P X710/2P I350 rNDC",
-      "rate": 0,
       "vendor": "Intel Corporation"
     },
     {
       "device": "NIC.Integrated.1-3",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "e4:43:4b:b8:f8:42",
+      "management": false,
       "model": "Intel(R) 2P X710/2P I350 rNDC",
-      "rate": 0,
       "vendor": "Intel Corporation"
     },
     {
       "device": "NIC.Integrated.1-4",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "e4:43:4b:b8:f8:43",
+      "management": false,
       "model": "Intel(R) 2P X710/2P I350 rNDC",
-      "rate": 0,
       "vendor": "Intel Corporation"
     },
     {
       "device": "NIC.Slot.1-1",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:1d:d6:2a",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX4LX Adpt",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
       "device": "NIC.Slot.1-2",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:1d:d6:2b",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX4LX Adpt",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
@@ -83,11 +94,14 @@
   },
   "processor": {
     "cache_l1": 1280000,
+    "cache_l1d": null,
+    "cache_l1i": null,
     "cache_l2": 20480000,
     "cache_l3": 28160000,
     "clock_speed": 2100000000,
-    "instruction_set": "x86-64",
-    "model": "Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz",
+    "instruction_set": null,
+    "model": null,
+    "other_description": "Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz",
     "vendor": "Intel",
     "version": null
   },

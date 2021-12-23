@@ -14,50 +14,60 @@
     "name": "PowerEdge R6525",
     "serial": "847XJD3"
   },
+  "infiniband": true,
   "main_memory": {
     "humanized_ram_size": "256 GiB",
     "ram_size": 256000000000
   },
-  "monitoring": {},
+  "monitoring": {
+    "wattmeter": false
+  },
   "network_adapters": [
     {
       "device": "NIC.Embedded.1-1",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "70:b5:e8:d0:a3:46",
+      "management": false,
       "model": null,
-      "rate": 0,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
       "device": "NIC.Embedded.2-1",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "70:b5:e8:d0:a3:47",
+      "management": false,
       "model": null,
-      "rate": 0,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
       "device": "NIC.Integrated.1-1",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:32:c6:6e",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
       "device": "NIC.Integrated.1-2",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:32:c6:6f",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
       "device": "InfiniBand.Slot.2-1",
+      "enabled": false,
       "interface": "InfiniBand",
       "mac": "0c:42:a1:19:52:8a",
+      "management": false,
       "model": null,
-      "rate": null,
       "vendor": "Mellanox Technologies"
     }
   ],
@@ -69,13 +79,16 @@
   },
   "processor": {
     "cache_l1": 1536000,
+    "cache_l1d": null,
+    "cache_l1i": null,
     "cache_l2": 12288000,
     "cache_l3": 131072000,
     "clock_speed": 2300000000,
     "instruction_set": "x86-64",
-    "model": "AMD EPYC 7352 24-Core Processor",
+    "model": "AMD EPYC",
+    "other_description": "AMD EPYC 7352 24-Core Processor",
     "vendor": "AMD",
-    "version": null
+    "version": "Model 49 Stepping 0"
   },
   "storage_devices": [
     {

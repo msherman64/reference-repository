@@ -14,66 +14,78 @@
     "name": "PowerEdge R840",
     "serial": "59120D3"
   },
+  "infiniband": true,
   "main_memory": {
     "humanized_ram_size": "3792 GiB",
     "ram_size": 3792000000000
   },
-  "monitoring": {},
+  "monitoring": {
+    "wattmeter": false
+  },
   "network_adapters": [
     {
       "device": "NIC.Integrated.1-1",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "2c:ea:7f:ea:82:34",
+      "management": false,
       "model": "BRCM GbE 4P 5720-t rNDC",
-      "rate": 0,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
       "device": "NIC.Integrated.1-2",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "2c:ea:7f:ea:82:35",
+      "management": false,
       "model": "BRCM GbE 4P 5720-t rNDC",
-      "rate": 0,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
       "device": "NIC.Integrated.1-3",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "2c:ea:7f:ea:82:36",
+      "management": false,
       "model": "BRCM GbE 4P 5720-t rNDC",
-      "rate": 0,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
       "device": "NIC.Integrated.1-4",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "2c:ea:7f:ea:82:37",
+      "management": false,
       "model": "BRCM GbE 4P 5720-t rNDC",
-      "rate": 0,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
       "device": "NIC.Slot.4-1",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "04:3f:72:ff:9b:de",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX5 Adpt",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
       "device": "NIC.Slot.4-2",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "04:3f:72:ff:9b:df",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX5 Adpt",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
       "device": "InfiniBand.Slot.2-1",
+      "enabled": false,
       "interface": "InfiniBand",
       "mac": "1c:34:da:73:47:0e",
+      "management": false,
       "model": null,
-      "rate": null,
       "vendor": "Mellanox Technologies"
     }
   ],
@@ -85,13 +97,16 @@
   },
   "processor": {
     "cache_l1": 1792000,
+    "cache_l1d": null,
+    "cache_l1i": null,
     "cache_l2": 28672000,
     "cache_l3": 39424000,
     "clock_speed": 2200000000,
-    "instruction_set": "x86-64",
-    "model": "Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz",
+    "instruction_set": null,
+    "model": null,
+    "other_description": "Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz",
     "vendor": "Intel",
-    "version": null
+    "version": "Model 85 Stepping 7"
   },
   "storage_devices": [
     {

@@ -18,38 +18,46 @@
     "humanized_ram_size": "192 GiB",
     "ram_size": 192000000000
   },
-  "monitoring": {},
+  "monitoring": {
+    "wattmeter": false
+  },
   "network_adapters": [
     {
       "device": "NIC.Integrated.1-1",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:43:21:6e",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
       "device": "NIC.Integrated.1-2",
+      "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:43:21:6f",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
       "device": "NIC.Slot.7-1",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "e4:3d:1a:2d:db:62",
+      "management": false,
       "model": "BRCM GbE 2P 5720-t Adapter",
-      "rate": 0,
       "vendor": "Broadcom Inc. and subsidiaries"
     },
     {
       "device": "NIC.Slot.7-2",
+      "enabled": false,
       "interface": "Ethernet",
       "mac": "e4:3d:1a:2d:db:63",
+      "management": false,
       "model": "BRCM GbE 2P 5720-t Adapter",
-      "rate": 0,
       "vendor": "Broadcom Inc. and subsidiaries"
     }
   ],
@@ -61,13 +69,16 @@
   },
   "processor": {
     "cache_l1": 1536000,
+    "cache_l1d": null,
+    "cache_l1i": null,
     "cache_l2": 24576000,
     "cache_l3": 36608000,
     "clock_speed": 2400000000,
     "instruction_set": "x86-64",
-    "model": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz",
     "vendor": "Intel",
-    "version": null
+    "version": "Model 85 Stepping 7"
   },
   "storage_devices": [
     {
