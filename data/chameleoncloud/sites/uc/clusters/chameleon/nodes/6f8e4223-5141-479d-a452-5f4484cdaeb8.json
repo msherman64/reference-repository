@@ -100,6 +100,26 @@
       "rev": "1.1.1",
       "size": 960197124096,
       "vendor": "Toshiba"
+    },
+    {
+      "device": "Disk.Bay.1:Enclosure.Internal.0-1",
+      "humanized_size": "7681 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "INTEL SSDPF2KX076TZ",
+      "rev": "JCV10100",
+      "size": 7681501126656,
+      "vendor": "Intel"
+    },
+    {
+      "device": "Disk.Bay.2:Enclosure.Internal.0-1",
+      "humanized_size": "7681 GB",
+      "interface": "PCIe",
+      "media_type": "SSD",
+      "model": "INTEL SSDPF2KX076TZ",
+      "rev": "JCV10100",
+      "size": 7681501126656,
+      "vendor": "Intel"
     }
   ],
   "supported_job_types": {
