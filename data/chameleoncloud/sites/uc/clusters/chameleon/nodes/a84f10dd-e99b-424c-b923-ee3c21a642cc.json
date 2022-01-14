@@ -74,8 +74,8 @@
   "node_name": "P3-CPU-040",
   "node_type": "compute_cascadelake_r",
   "placement": {
-    "node": "1",
-    "rack": ""
+    "node": "39",
+    "rack": "BH-41"
   },
   "processor": {
     "cache_l1": 1536000,

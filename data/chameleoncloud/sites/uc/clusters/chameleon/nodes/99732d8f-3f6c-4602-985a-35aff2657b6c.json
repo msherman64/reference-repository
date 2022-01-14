@@ -89,8 +89,8 @@
   "node_name": "P3-GPU-010",
   "node_type": "gpu_v100",
   "placement": {
-    "node": "1",
-    "rack": ""
+    "node": "30",
+    "rack": "BH-41"
   },
   "processor": {
     "cache_l1": 1280000,

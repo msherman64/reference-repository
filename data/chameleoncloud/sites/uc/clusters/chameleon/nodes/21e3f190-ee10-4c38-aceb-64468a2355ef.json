@@ -92,8 +92,8 @@
   "node_name": "P3-NVDIMM-002",
   "node_type": "compute_nvdimm",
   "placement": {
-    "node": "1",
-    "rack": ""
+    "node": "35",
+    "rack": "BH-41"
   },
   "processor": {
     "cache_l1": 1792000,

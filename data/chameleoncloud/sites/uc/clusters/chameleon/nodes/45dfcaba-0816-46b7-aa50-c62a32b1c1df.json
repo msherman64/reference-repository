@@ -74,8 +74,8 @@
   "node_name": "P3-SSD-007",
   "node_type": "storage_nvme",
   "placement": {
-    "node": "1",
-    "rack": ""
+    "node": "12",
+    "rack": "BH-41"
   },
   "processor": {
     "cache_l1": 1536000,
