@@ -5,9 +5,9 @@
     "smt_size": 80
   },
   "bios": {
-    "release_date": "11/26/2019",
+    "release_date": "07/09/2021",
     "vendor": "Dell Inc.",
-    "version": "2.4.8"
+    "version": "2.12.2"
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
@@ -21,6 +21,7 @@
     "gpu_name": "GV100GL [Tesla V100 SXM2 32GB]",
     "gpu_vendor": "NVIDIA Corporation"
   },
+  "infiniband": true,
   "main_memory": {
     "humanized_ram_size": "128 GiB",
     "ram_size": 128000000000
@@ -84,6 +85,15 @@
       "model": "MLNX 25GbE 2P ConnectX4LX Adpt",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
+    },
+    {
+      "device": "InfiniBand.Slot.3-1",
+      "enabled": false,
+      "interface": "InfiniBand",
+      "mac": "b8:ce:f6:04:93:b8",
+      "management": false,
+      "model": null,
+      "vendor": "Mellanox Technologies"
     }
   ],
   "node_name": "P3-GPU-011",
@@ -99,11 +109,11 @@
     "cache_l2": 20480000,
     "cache_l3": 28160000,
     "clock_speed": 2100000000,
-    "instruction_set": null,
-    "model": null,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
     "other_description": "Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz",
     "vendor": "Intel",
-    "version": null
+    "version": "Model 85 Stepping 7"
   },
   "storage_devices": [
     {
@@ -112,7 +122,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "MTFDDAV240TCB",
-      "rev": "D0DE012",
+      "rev": "D0DE013",
       "size": 240057409536,
       "vendor": "MICRON"
     },
@@ -122,7 +132,7 @@
       "interface": "SATA",
       "media_type": "SSD",
       "model": "MTFDDAV240TCB",
-      "rev": "D0DE012",
+      "rev": "D0DE013",
       "size": 240057409536,
       "vendor": "MICRON"
     }

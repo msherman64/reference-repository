@@ -99,8 +99,8 @@
     "cache_l2": 20480000,
     "cache_l3": 28160000,
     "clock_speed": 2100000000,
-    "instruction_set": null,
-    "model": null,
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
     "other_description": "Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz",
     "vendor": "Intel",
     "version": null

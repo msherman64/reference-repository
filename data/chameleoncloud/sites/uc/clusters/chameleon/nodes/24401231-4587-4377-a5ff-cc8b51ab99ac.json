@@ -35,6 +35,7 @@
       "enabled": false,
       "interface": "Ethernet",
       "mac": "78:ac:44:3e:a4:88",
+      "management": false,
       "model": "Intel(R) 2P X710/2P I350 rNDC",
       "vendor": "Intel Corporation"
     },
@@ -43,6 +44,7 @@
       "enabled": false,
       "interface": "Ethernet",
       "mac": "78:ac:44:3e:a4:8a",
+      "management": false,
       "model": "Intel(R) 2P X710/2P I350 rNDC",
       "vendor": "Intel Corporation"
     },
@@ -51,6 +53,7 @@
       "enabled": false,
       "interface": "Ethernet",
       "mac": "78:ac:44:3e:a4:a8",
+      "management": false,
       "model": "Intel(R) 2P X710/2P I350 rNDC",
       "vendor": "Intel Corporation"
     },
@@ -59,6 +62,7 @@
       "enabled": false,
       "interface": "Ethernet",
       "mac": "78:ac:44:3e:a4:a9",
+      "management": false,
       "model": "Intel(R) 2P X710/2P I350 rNDC",
       "vendor": "Intel Corporation"
     },
@@ -67,6 +71,7 @@
       "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:93:bf:7e",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX4LX Adpt",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
@@ -76,6 +81,7 @@
       "enabled": true,
       "interface": "Ethernet",
       "mac": "b8:ce:f6:93:bf:7f",
+      "management": false,
       "model": "MLNX 25GbE 2P ConnectX4LX Adpt",
       "rate": 25000000000,
       "vendor": "Mellanox Technologies"
@@ -85,6 +91,8 @@
       "enabled": false,
       "interface": "InfiniBand",
       "mac": "b8:ce:f6:8b:ab:40",
+      "management": false,
+      "model": null,
       "vendor": "Mellanox Technologies"
     }
   ],
@@ -96,10 +104,14 @@
   },
   "processor": {
     "cache_l1": 1280000,
+    "cache_l1d": null,
+    "cache_l1i": null,
     "cache_l2": 20480000,
     "cache_l3": 28160000,
     "clock_speed": 2100000000,
-    "model": "Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz",
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz",
     "vendor": "Intel",
     "version": "Model 85 Stepping 7"
   },

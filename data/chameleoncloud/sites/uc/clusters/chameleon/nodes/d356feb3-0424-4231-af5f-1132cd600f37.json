@@ -38,6 +38,7 @@
       "mac": "b8:ce:f6:43:46:57",
       "management": false,
       "model": "MLNX 25GbE 2P ConnectX4LX RNDC",
+      "rate": 25000000000,
       "vendor": "Mellanox Technologies"
     },
     {
@@ -86,7 +87,7 @@
       "media_type": "SSD",
       "model": "SSDSC2KB480G8R",
       "rev": "XCV1DL69",
-      "size": 480103981056,
+      "size": 480103980544,
       "vendor": "INTEL"
     }
   ],
