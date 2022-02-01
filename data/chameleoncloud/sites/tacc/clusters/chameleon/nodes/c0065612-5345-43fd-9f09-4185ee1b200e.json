@@ -100,7 +100,7 @@
     }
   ],
   "node_name": "c02-19",
-  "node_type": "storage_nvme",
+  "node_type": "compute_zen3",
   "placement": {
     "node": "23",
     "rack": "BE26"
