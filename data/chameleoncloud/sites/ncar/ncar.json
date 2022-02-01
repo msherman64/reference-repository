@@ -1,0 +1,15 @@
+{
+  "description": "National Center for Atmospheric Research",
+  "email_contact": "help@chameleoncloud.org",
+  "latitude": 39.978300,
+  "location": "Boulder, Colorado, USA",
+  "longitude": -105.275000,
+  "name": "CHI@NCAR",
+  "security_contact": "help@chameleoncloud.org",
+  "site_class": "baremetal",
+  "sys_admin_contact": "help@chameleoncloud.org",
+  "type": "site",
+  "uid": "ncar",
+  "user_support_contact": "help@chameleoncloud.org",
+  "web": "https://chi.hpc.ucar.edu/"
+}

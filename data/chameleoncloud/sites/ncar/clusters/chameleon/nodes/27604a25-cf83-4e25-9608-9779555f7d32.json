@@ -1,0 +1,94 @@
+{
+    "architecture": {
+        "smp_size": 2,
+        "smt_size": 256,
+        "platform_type": "aarch64"
+    },
+    "bios": {
+        "vendor": "GIGABYTE",
+        "version": "F34"
+    },
+    "chassis": {
+        "manufacturer": "GIGABYTE",
+        "name": "R181-T92-00"
+    },
+    "main_memory": {
+        "ram_size": 135291469824
+    },
+    "monitoring": {
+        "wattmeter": false
+    },
+    "network_adapters": [
+        {
+            "device": "eno1",
+            "driver": "qede",
+            "enabled": "true",
+            "interface": "Ethernet",
+            "mac": "b4:2e:99:3d:1f:2c",
+            "model": "FastLinQ QL41000 Series 10/25/40/50GbE Controller",
+            "vendor": "QLogic Corp."
+        },
+        {
+            "device": "eno2",
+            "driver": "qede",
+            "enabled": "false",
+            "interface": "Ethernet",
+            "mac": "b4:2e:99:3d:1f:2d",
+            "model": "FastLinQ QL41000 Series 10/25/40/50GbE Controller",
+            "vendor": "QLogic Corp."
+        },
+        {
+            "device": "enp145s0f0",
+            "driver": "mlx5_core",
+            "enabled": "false",
+            "interface": "Ethernet",
+            "mac": "98:03:9b:8f:95:f4",
+            "model": "MT27800 Family [ConnectX-5]",
+            "vendor": "Mellanox Technologies"
+        }
+    ],
+    "node_name": "tharm04",
+    "node_type": "arm_thunder",
+    "processor": {
+        "cache_l1": 2097152,
+        "cache_l2": 8388608,
+        "cache_l3": 33554432,
+        "clock_speed": 3300000000,
+        "instruction_set": "aarch64",
+        "model": "Cavium ThunderX2(R) CPU CN9980 v2.2 @ 2.20GHz",
+        "vendor": "Cavium Inc."
+    },
+    "supported_job_types": {
+        "besteffort": false,
+        "deploy": true,
+        "virtual": "ivt"
+    },
+    "type": "node",
+    "storage_devices": [
+        {
+            "device": "sda",
+            "size": 2000398934016,
+            "model": "ST2000NX0253",
+            "rev": "SN05"
+        },
+        {
+            "device": "sdb",
+            "size": 2000398934016,
+            "model": "ST2000NX0253",
+            "rev": "SN05"
+        },
+        {
+            "device": "sdc",
+            "size": 2000398934016,
+            "model": "ST2000NX0253",
+            "rev": "SN05"
+        },
+        {
+            "device": "sdd",
+            "size": 2000398934016,
+            "model": "ST2000NX0253",
+            "rev": "SN05"
+        }
+    ],
+    "uid": "27604a25-cf83-4e25-9608-9779555f7d32"
+}
