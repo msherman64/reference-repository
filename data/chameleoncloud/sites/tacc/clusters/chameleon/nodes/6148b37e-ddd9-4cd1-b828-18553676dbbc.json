@@ -1,0 +1,134 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 256
+  },
+  "bios": {
+    "release_date": "04/08/2021",
+    "vendor": "Dell Inc.",
+    "version": "2.2.5"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R6525",
+    "serial": "D76CFF3"
+  },
+  "infiniband": true,
+  "main_memory": {
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 256000000000
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "NIC.Embedded.1-1",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "b0:7b:25:d4:40:ee",
+      "model": null,
+      "rate": 1000000000,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Embedded.2-1",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "b0:7b:25:d4:40:ef",
+      "model": null,
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-1",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "bc:97:e1:80:27:ea",
+      "model": "BRCM 4P 1G BT 5720 OCP NIC",
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-2",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "bc:97:e1:80:27:eb",
+      "model": "BRCM 4P 1G BT 5720 OCP NIC",
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "bc:97:e1:80:27:ec",
+      "model": "BRCM 4P 1G BT 5720 OCP NIC",
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Integrated.1-4",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "bc:97:e1:80:27:ed",
+      "model": "BRCM 4P 1G BT 5720 OCP NIC",
+      "vendor": "Broadcom Inc. and subsidiaries"
+    },
+    {
+      "device": "NIC.Slot.2-1",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "34:80:0d:ed:52:80",
+      "model": "QLogic 25GE 2P QL41262 Adapter",
+      "vendor": "QLogic Corp."
+    },
+    {
+      "device": "NIC.Slot.2-2",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "34:80:0d:ed:52:81",
+      "model": "QLogic 25GE 2P QL41262 Adapter",
+      "vendor": "QLogic Corp."
+    },
+    {
+      "device": "InfiniBand.Slot.1-1",
+      "enabled": false,
+      "interface": "InfiniBand",
+      "mac": "b8:ce:f6:50:6f:f8",
+      "model": null,
+      "vendor": "Mellanox Technologies"
+    }
+  ],
+  "node_name": "c03-10",
+  "node_type": "compute_zen3",
+  "placement": {
+    "node": "18",
+    "rack": "BD26"
+  },
+  "processor": {
+    "cache_l1": 4096000,
+    "cache_l2": 32768000,
+    "cache_l3": 262144000,
+    "clock_speed": 2450000000,
+    "model": "AMD EPYC 7763 64-Core Processor",
+    "vendor": "AMD",
+    "version": "Model 1 Stepping 1"
+  },
+  "storage_devices": [
+    {
+      "device": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.8-1",
+      "humanized_size": "480 GB",
+      "interface": "SATA",
+      "media_type": "SSD",
+      "model": "MZ7LH480HBHQ0D3",
+      "rev": "HG58",
+      "size": 480103981056,
+      "vendor": "SAMSUNG"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "6148b37e-ddd9-4cd1-b828-18553676dbbc"
+}
