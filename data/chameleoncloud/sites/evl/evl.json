@@ -1,0 +1,15 @@
+{
+  "description": "Electronic Visualization Laboratory (EVL) at UIC",
+  "email_contact": "help@chameleoncloud.org",
+  "latitude": 41.8699,
+  "location": "Chicago, IL, USA",
+  "longitude": -87.6480,
+  "name": "CHI@EVL",
+  "security_contact": "help@chameleoncloud.org",
+  "site_class": "baremetal",
+  "sys_admin_contact": "help@chameleoncloud.org",
+  "type": "site",
+  "uid": "evl",
+  "user_support_contact": "help@chameleoncloud.org",
+  "web": "https://chi.evl.uic.edu/"
+}

@@ -1,0 +1,50 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 48
+  },
+  "bios": {
+    "release_date": "05/17/2018",
+    "vendor": "Dell Inc.",
+    "version": "2.8.0"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R630"
+  },
+  "network_adapters": [
+    {
+      "device": "eno3",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "44:A8:42:23:42:92",
+      "rate": 1000000000
+    },
+    {
+      "device": "eno4",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "44:A8:42:23:42:94",
+      "rate": 1000000000
+    }
+  ],
+  "node_name": "chinode03",
+  "node_type": "compute_haswell",
+  "processor": {
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel"
+  },
+  "storage_devices": [
+    {
+      "device": "/dev/sda",
+      "humanized_size": "250 GB",
+      "interface": "SATA",
+      "model": "ST9250610NS"
+    }
+  ],
+  "type": "node",
+  "uid": "1745d6fb-d342-48f9-a358-d006063f55be"
+}
