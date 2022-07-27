@@ -87,7 +87,7 @@
     }
   ],
   "node_name": "F1BG3Q3",
-  "node_type": "gpu_a100",
+  "node_type": "gpu_a100_nvlink",
   "placement": {
     "node": "1",
     "rack": ""

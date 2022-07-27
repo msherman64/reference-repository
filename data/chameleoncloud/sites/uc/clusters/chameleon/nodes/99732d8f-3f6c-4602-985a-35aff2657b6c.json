@@ -87,7 +87,7 @@
     }
   ],
   "node_name": "P3-GPU-010",
-  "node_type": "gpu_v100",
+  "node_type": "gpu_v100_nvlink",
   "placement": {
     "node": "30",
     "rack": "BH-41"
