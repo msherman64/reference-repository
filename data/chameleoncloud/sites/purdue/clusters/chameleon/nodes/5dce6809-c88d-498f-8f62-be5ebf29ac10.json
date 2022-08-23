@@ -1,0 +1,40 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 40
+  },
+  "bios": {
+    "release_date": null,
+    "vendor": "HPE",
+    "version": "U15 v2.76 (10/21/2019)"
+  },
+  "chassis": {
+    "manufacturer": "HPE",
+    "name": "ProLiant DL60 Gen9",
+    "serial": "777403-B21"
+  },
+  "main_memory": {
+    "humanized_ram_size": "256 GiB",
+    "ram_size": 256000000000
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [],
+  "node_name": "snyder-a002",
+  "node_type": "indyscc_head",
+  "processor": {
+    "instruction_set": "x86-64",
+    "model": "Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz",
+    "vendor": "Intel(R) Corporation"
+  },
+  "storage_devices": [],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "5dce6809-c88d-498f-8f62-be5ebf29ac10"
+}

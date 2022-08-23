@@ -1,0 +1,40 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 40
+  },
+  "bios": {
+    "release_date": null,
+    "vendor": "HPE",
+    "version": "U15 v1.50 (07/20/2015)"
+  },
+  "chassis": {
+    "manufacturer": "HPE",
+    "name": "ProLiant DL60 Gen9",
+    "serial": "777403-B21"
+  },
+  "main_memory": {
+    "humanized_ram_size": "64 GiB",
+    "ram_size": 64000000000
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [],
+  "node_name": "rice-a375",
+  "node_type": "indyscc_compute",
+  "processor": {
+    "instruction_set": "x86-64",
+    "model": "Intel(R) Xeon(R) CPU E5-2660 v3 @ 2.60GHz",
+    "vendor": "Intel(R) Corporation"
+  },
+  "storage_devices": [],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "d19aeacc-f68e-4d19-adc7-d443e3f68d3a"
+}
