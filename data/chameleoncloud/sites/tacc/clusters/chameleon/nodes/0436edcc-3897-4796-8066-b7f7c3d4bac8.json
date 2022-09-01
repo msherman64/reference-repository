@@ -107,7 +107,7 @@
     }
   ],
   "node_name": "liqid04",
-  "node_type": "storage_nvme",
+  "node_type": "compute_liqid",
   "placement": {
     "node": "1",
     "rack": "liqid04-oob"
