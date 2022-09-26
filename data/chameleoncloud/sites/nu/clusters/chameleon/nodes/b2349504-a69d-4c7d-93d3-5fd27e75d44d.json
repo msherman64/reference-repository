@@ -5,20 +5,17 @@
     "smt_size": 48
   },
   "bios": {
-    "release_date": "10/002/2015",
+    "release_date": null,
     "vendor": "Dell Inc.",
-    "version": "1.5.4"
+    "version": "2.15.0"
   },
   "chassis": {
     "manufacturer": "Dell Inc.",
     "name": "PowerEdge R630",
     "serial": "4GRY482"
   },
-  "gpu": {
-    "gpu": false
-  },
   "main_memory": {
-    "humanized_ram_size": "128 GB",
+    "humanized_ram_size": "128 GiB",
     "ram_size": 128000000000
   },
   "monitoring": {
@@ -26,63 +23,70 @@
   },
   "network_adapters": [
     {
-      "bridged": false,
-      "device": "eno1",
-      "driver": "bnx2x",
+      "device": "NIC.Slot.3-1",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "",
+      "management": false,
+      "model": null,
+      "vendor": null
+    },
+    {
+      "device": "NIC.Integrated.1-1",
       "enabled": true,
       "interface": "Ethernet",
       "mac": "14:18:77:54:0d:d1",
       "management": false,
-      "model": "Ethernet Controller X710 for 10GbE SFP+ (rev 01)",
-      "mounted": true,
+      "model": "BRCM 10G/GbE 2+2P 57800 rNDC",
       "rate": 10000000000,
-      "vendor": "Broadcom Corporation",
-      "version": ""
+      "vendor": "Dell"
     },
     {
-      "bridged": false,
-      "device": "eno5",
-      "driver": "mlx5_core",
-      "enabled": true,
+      "device": "NIC.Integrated.1-2",
+      "enabled": false,
       "interface": "Ethernet",
-      "mac": "98:03:9b:7f:c2:a0",
+      "mac": "14:18:77:54:0d:d3",
       "management": false,
-      "model": "MT27800 Family [ConnectX-5]",
-      "mounted": false,
-      "rate": 100000000000,
-      "vendor": "Mellanox Technologies",
-      "version": "MT4119"
+      "model": "BRCM 10G/GbE 2+2P 57800 rNDC",
+      "vendor": "Dell"
+    },
+    {
+      "device": "NIC.Integrated.1-3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "14:18:77:54:0d:d5",
+      "management": false,
+      "model": "BRCM 10G/GbE 2+2P 57800 rNDC",
+      "vendor": "Dell"
+    },
+    {
+      "device": "NIC.Integrated.1-4",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "14:18:77:54:0d:d7",
+      "management": false,
+      "model": "BRCM 10G/GbE 2+2P 57800 rNDC",
+      "rate": 1000000000,
+      "vendor": "Dell"
     }
   ],
   "node_name": "r630cham5",
   "node_type": "compute_haswell",
-  "placement": {
-    "node": 0,
-    "rack": 1
-  },
   "processor": {
-    "cache_l1": null,
-    "cache_l1d": 32768,
-    "cache_l1i": 32768,
-    "cache_l2": 262144,
-    "cache_l3": 31457280,
-    "clock_speed": null,
     "instruction_set": "x86-64",
-    "model": "Intel Xeon",
-    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
-    "vendor": "Intel",
-    "version": "E5-2670 v3"
+    "model": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel"
   },
   "storage_devices": [
     {
-      "device": "sda",
-      "driver": "megaraid_sas",
-      "humanized_size": "250 GB",
+      "device": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.Integrated.1-1",
+      "humanized_size": "249 GB",
       "interface": "SATA",
+      "media_type": "HDD",
       "model": "ST9250610NS",
       "rev": "AA63",
-      "size": 250059350016,
-      "vendor": "Seagate"
+      "size": 249510756352,
+      "vendor": "SEAGATE"
     }
   ],
   "supported_job_types": {

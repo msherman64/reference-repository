@@ -1,0 +1,147 @@
+{
+  "architecture": {
+    "platform_type": "x86_64",
+    "smp_size": 2,
+    "smt_size": 48
+  },
+  "bios": {
+    "release_date": "004/21/2021",
+    "vendor": "Dell Inc.",
+    "version": "2.11.2"
+  },
+  "chassis": {
+    "manufacturer": "Dell Inc.",
+    "name": "PowerEdge R740xd",
+    "serial": "8MRXHL2"
+  },
+  "main_memory": {
+    "humanized_ram_size": "192 GiB",
+    "ram_size": 192000000000
+  },
+  "monitoring": {
+    "wattmeter": false
+  },
+  "network_adapters": [
+    {
+      "device": "NIC.Integrated.1-1",
+      "enabled": true,
+      "interface": "Ethernet",
+      "mac": "24:6e:96:5c:ca:f6",
+      "management": false,
+      "model": "Intel(R) 2P X710/2P I350 rNDC",
+      "rate": 10000000000,
+      "vendor": "Intel Corporation"
+    },
+    {
+      "device": "NIC.Integrated.1-2",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "24:6e:96:5c:ca:f8",
+      "management": false,
+      "model": "Intel(R) 2P X710/2P I350 rNDC",
+      "vendor": "Intel Corporation"
+    },
+    {
+      "device": "NIC.Integrated.1-3",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "24:6e:96:5c:cb:16",
+      "management": false,
+      "model": "Intel(R) 2P X710/2P I350 rNDC",
+      "rate": 1000000000,
+      "vendor": "Intel Corporation"
+    },
+    {
+      "device": "NIC.Integrated.1-4",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "24:6e:96:5c:cb:17",
+      "management": false,
+      "model": "Intel(R) 2P X710/2P I350 rNDC",
+      "vendor": "Intel Corporation"
+    },
+    {
+      "device": "NIC.Slot.1-1",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "",
+      "management": false,
+      "model": null,
+      "rate": 100000000000,
+      "vendor": null
+    },
+    {
+      "device": "NIC.Slot.1-2",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "",
+      "management": false,
+      "model": null,
+      "vendor": null
+    },
+    {
+      "device": "NIC.Slot.4-1",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "",
+      "management": false,
+      "model": null,
+      "vendor": null
+    },
+    {
+      "device": "NIC.Slot.4-2",
+      "enabled": false,
+      "interface": "Ethernet",
+      "mac": "",
+      "management": false,
+      "model": null,
+      "rate": 100000000000,
+      "vendor": null
+    }
+  ],
+  "node_name": "r740xdcham142",
+  "node_type": "compute_skylake",
+  "placement": {
+    "node": "1",
+    "rack": ""
+  },
+  "processor": {
+    "cache_l1": 768000,
+    "cache_l2": 12288000,
+    "cache_l3": 25344000,
+    "clock_speed": 3000000000,
+    "instruction_set": "x86-64",
+    "model": "Intel(R) Xeon(R) Gold 6136 CPU @ 3.00GHz",
+    "vendor": "Intel",
+    "version": "Model 85 Stepping 4"
+  },
+  "storage_devices": [
+    {
+      "device": "Disk.Bay.0:Enclosure.Internal.0-1:RAID.Slot.7-1",
+      "humanized_size": "119 GB",
+      "interface": "SATA",
+      "media_type": "SSD",
+      "model": "SSDSC2BB120G7R",
+      "rev": "N201DL43",
+      "size": 119453777920,
+      "vendor": "INTEL"
+    },
+    {
+      "device": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.Slot.7-1",
+      "humanized_size": "119 GB",
+      "interface": "SATA",
+      "media_type": "SSD",
+      "model": "SSDSC2BB120G7R",
+      "rev": "N201DL43",
+      "size": 119453777920,
+      "vendor": "INTEL"
+    }
+  ],
+  "supported_job_types": {
+    "besteffort": false,
+    "deploy": true,
+    "virtual": "ivt"
+  },
+  "type": "node",
+  "uid": "919b948a-d6f7-4f09-a418-28b3834c6048"
+}
