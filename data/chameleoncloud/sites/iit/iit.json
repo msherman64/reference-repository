@@ -1,0 +1,15 @@
+{
+    "uid": "iit",
+    "name": "CHI@IIT",
+    "type": "site",
+    "site_class": "baremetal",
+    "description": "Illinois Institute of Technology",
+    "web": "https://chameleon.cs.iit.edu",
+    "email_contact": "help@chameleoncloud.org",
+    "security_contact": "help@chameleoncloud.org",
+    "sys_admin_contact": "help@chameleoncloud.org",
+    "user_support_contact": "help@chameleoncloud.org",
+    "location": "10 W 31st St, Chicago, IL 60616, USA",
+    "latitude": 41.838774163502755,
+    "longitude": -87.62734428783205
+}
