@@ -29,6 +29,14 @@
     "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
     "vendor": "Intel"
   },
+  "storage_devices": [
+    {
+      "device": "/dev/sda",
+      "humanized_size": "250 GB",
+      "interface": "SATA",
+      "model": "ST9250610NS"
+    }
+  ],
   "supported_job_types": {
     "besteffort": false,
     "deploy": true,
