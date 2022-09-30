@@ -23,6 +23,12 @@
   ],
   "node_name": "c20",
   "node_type": "compute_haswell",
+  "processor": {
+    "instruction_set": "x86-64",
+    "model": "Intel Xeon",
+    "other_description": "Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz",
+    "vendor": "Intel"
+  },
   "supported_job_types": {
     "besteffort": false,
     "deploy": true,
